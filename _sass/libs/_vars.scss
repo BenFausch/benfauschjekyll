@@ -37,7 +37,7 @@
 
 // Palette.
 	$palette: (
-		bg:					#2e3842,
+		bg:					#101E2C,
 		fg:					#fff,
 		fg-bold:			#fff,
 		fg-light:			rgba(255,255,255,0.5),
@@ -47,7 +47,7 @@
 		border2-bg:			rgba(144,144,144,0.5),
 
 		accent1: (
-			bg:				#21b2a6,
+			bg:				#9B0B27,
 			fg-bold:		#ffffff,
 			fg:				mix(#21b2a6, #ffffff, 25%),
 			fg-light:		mix(#21b2a6, #ffffff, 40%),
@@ -80,10 +80,10 @@
 		),
 
 		accent4: (
-			bg:				#76ddff,
+			bg:				#BBABFF,
 			fg-bold:		#ffffff,
-			fg:				mix(#76ddff, #ffffff, 25%),
-			fg-light:		mix(#76ddff, #ffffff, 40%),
+			fg:				mix(#BBABFF, #ffffff, 25%),
+			fg-light:		mix(#BBABFF, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -91,10 +91,10 @@
 		),
 
 		accent5: (
-			bg:				#505393,
+			bg:				#4C056B,
 			fg-bold:		#ffffff,
-			fg:				mix(#505393, #ffffff, 25%),
-			fg-light:		mix(#505393, #ffffff, 40%),
+			fg:				mix(#4C056B, #ffffff, 25%),
+			fg-light:		mix(#4C056B, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
