@@ -1,0 +1,2650 @@
+var json_data = [{
+    "id": "1021",
+    "dateAdded": "2017-04-14T20:53:16.295Z",
+    "index": 0,
+    "parentId": "234",
+    "title": "Static Sites"
+}, {
+    "id": "1022",
+    "dateAdded": "2017-04-14T20:53:18.013Z",
+    "index": 0,
+    "parentId": "1021",
+    "title": "Jekyll Admin",
+    "url": "https://jekyll.github.io/jekyll-admin/"
+}, {
+    "id": "688",
+    "dateAdded": "2016-09-02T18:26:46.300Z",
+    "index": 1,
+    "parentId": "1021",
+    "title": "Jekyll • Simple, blog-aware, static sites - Transform your plain text into static websites and blogs",
+    "url": "https://jekyllrb.com/"
+}, {
+    "id": "276",
+    "dateAdded": "2015-12-03T22:16:35.754Z",
+    "index": 1,
+    "parentId": "234",
+    "title": "git"
+}, {
+    "id": "247",
+    "dateAdded": "2015-11-03T20:11:09.842Z",
+    "index": 0,
+    "parentId": "276",
+    "title": "Version Control Branching Strategy Recommendations - Google Docs",
+    "url": "https://docs.google.com/document/d/1jcPHk5x_fKVt5TE8wBBj9yrQ4CQfukhNXCl9OZvL1fY/edit"
+}, {
+    "id": "238",
+    "dateAdded": "2015-10-21T21:19:59.760Z",
+    "index": 1,
+    "parentId": "276",
+    "title": "Git - Rewriting History",
+    "url": "https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History"
+}, {
+    "id": "262",
+    "dateAdded": "2015-11-25T18:52:51.233Z",
+    "index": 2,
+    "parentId": "276",
+    "title": "Git - Documentation",
+    "url": "https://git-scm.com/documentation"
+}, {
+    "id": "263",
+    "dateAdded": "2015-11-25T18:53:28.826Z",
+    "index": 3,
+    "parentId": "276",
+    "title": "Git for Teams - O'Reilly Media",
+    "url": "http://shop.oreilly.com/product/0636920034520.do"
+}, {
+    "id": "264",
+    "dateAdded": "2015-11-25T19:18:53.370Z",
+    "index": 4,
+    "parentId": "276",
+    "title": "Git Fundamentals for Web Developers - O'Reilly Media",
+    "url": "http://shop.oreilly.com/product/0636920042129.do"
+}, {
+    "id": "270",
+    "dateAdded": "2015-12-02T16:54:50.777Z",
+    "index": 5,
+    "parentId": "276",
+    "title": "add git branch name to terminal",
+    "url": "http://martinfitzpatrick.name/article/add-git-branch-name-to-terminal-prompt-mac/"
+}, {
+    "id": "277",
+    "dateAdded": "2015-12-03T22:21:00.389Z",
+    "index": 6,
+    "parentId": "276",
+    "title": "Git Pull With Automatic Rebase - Steven Harman",
+    "url": "http://stevenharman.net/git-pull-with-automatic-rebase"
+}, {
+    "id": "295",
+    "dateAdded": "2015-12-21T17:51:48.840Z",
+    "index": 7,
+    "parentId": "276",
+    "title": "git branch - Update git branches from master - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/3876977/update-git-branches-from-master"
+}, {
+    "id": "312",
+    "dateAdded": "2016-01-11T18:02:52.287Z",
+    "index": 2,
+    "parentId": "234",
+    "title": "uselessapps"
+}, {
+    "id": "311",
+    "dateAdded": "2016-01-11T18:02:40.672Z",
+    "index": 0,
+    "parentId": "312",
+    "title": "Return Google Image Search Results in HTML using PHP - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/16855957/return-google-image-search-results-in-html-using-php"
+}, {
+    "id": "313",
+    "dateAdded": "2016-01-11T18:05:11.056Z",
+    "index": 1,
+    "parentId": "312",
+    "title": "Internet Video Archive | Getting Started – Free",
+    "url": "http://www.internetvideoarchive.com/documentation/getting-started-free/"
+}, {
+    "id": "314",
+    "dateAdded": "2016-01-11T18:05:14.870Z",
+    "index": 2,
+    "parentId": "312",
+    "title": "Rotten Tomatoes API - API Overview",
+    "url": "http://developer.rottentomatoes.com/docs"
+}, {
+    "id": "320",
+    "dateAdded": "2016-01-19T19:54:41.584Z",
+    "index": 3,
+    "parentId": "312",
+    "title": "How to Make a Chrome Extension",
+    "url": "https://robots.thoughtbot.com/how-to-make-a-chrome-extension"
+}, {
+    "id": "307",
+    "dateAdded": "2016-01-04T18:55:20.005Z",
+    "index": 3,
+    "parentId": "234",
+    "title": "31 Best WordPress Tutorials for Advanced Users",
+    "url": "https://www.competethemes.com/blog/wordpress-tutorials/"
+}, {
+    "id": "378",
+    "dateAdded": "2016-03-10T19:05:13.006Z",
+    "index": 4,
+    "parentId": "234",
+    "title": "A Complete Guide to Flexbox | CSS-Tricks",
+    "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+}, {
+    "id": "371",
+    "dateAdded": "2016-03-07T18:00:55.545Z",
+    "index": 5,
+    "parentId": "234",
+    "title": "A fine line – Breaking Views",
+    "url": "http://local.breakingviews.com/sample-page/testarticle/"
+}, {
+    "id": "412",
+    "dateAdded": "2016-03-31T20:32:11.419Z",
+    "index": 6,
+    "parentId": "234",
+    "title": "A Nice & Simple Contact Form",
+    "url": "https://css-tricks.com/examples/NiceSimpleContactForm/"
+}, {
+    "id": "317",
+    "dateAdded": "2016-01-15T17:18:13.205Z",
+    "index": 7,
+    "parentId": "234",
+    "title": "A to Z Index of Unicode Characters: starting with 'A'",
+    "url": "http://www.fileformat.info/info/unicode/char/a.htm"
+}, {
+    "id": "482",
+    "dateAdded": "2016-05-19T16:50:43.342Z",
+    "index": 8,
+    "parentId": "234",
+    "title": "A Tour of Go",
+    "url": "https://tour.golang.org/welcome/1"
+}, {
+    "id": "503",
+    "dateAdded": "2016-05-26T21:54:01.044Z",
+    "index": 9,
+    "parentId": "234",
+    "title": "Add Text Field Under General Settings in Wordpress » WP HATS",
+    "url": "http://www.wphats.com/add-text-field-general-settings-wordpress/"
+}, {
+    "id": "582",
+    "dateAdded": "2016-07-07T20:44:04.037Z",
+    "index": 10,
+    "parentId": "234",
+    "title": "amphtml/validator at master · ampproject/amphtml",
+    "url": "https://github.com/ampproject/amphtml/tree/master/validator"
+}, {
+    "id": "454",
+    "dateAdded": "2016-05-05T15:35:39.985Z",
+    "index": 11,
+    "parentId": "234",
+    "title": "An Ultimate Guide To CSS Pseudo-Classes And Pseudo-Elements – Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/#indeterminate"
+}, {
+    "id": "558",
+    "dateAdded": "2016-06-27T19:51:09.498Z",
+    "index": 12,
+    "parentId": "234",
+    "title": "Angular 2 Fundamentals - Course by @johnlindquist @eggheadio",
+    "url": "https://egghead.io/courses/angular-2-fundamentals"
+}, {
+    "id": "638",
+    "dateAdded": "2016-08-09T18:22:19.538Z",
+    "index": 13,
+    "parentId": "234",
+    "title": "API Client Library for JavaScript (Beta)  |  Google Developers",
+    "url": "https://developers.google.com/api-client-library/javascript/"
+}, {
+    "id": "623",
+    "dateAdded": "2016-08-03T17:02:42.946Z",
+    "index": 14,
+    "parentId": "234",
+    "title": "Async with WordPress Enqueue - iKreativ",
+    "url": "https://ikreativ.com/async-with-wordpress-enqueue/"
+}, {
+    "id": "508",
+    "dateAdded": "2016-05-27T18:30:51.937Z",
+    "index": 15,
+    "parentId": "234",
+    "title": "Attaching Files To Your Posts Using WordPress Custom Meta Boxes, Part 1",
+    "url": "http://code.tutsplus.com/articles/attaching-files-to-your-posts-using-wordpress-custom-meta-boxes-part-1--wp-22291"
+}, {
+    "id": "604",
+    "dateAdded": "2016-07-20T15:45:09.111Z",
+    "index": 16,
+    "parentId": "234",
+    "title": "Available Commands · pantheon-systems/terminus Wiki",
+    "url": "https://github.com/pantheon-systems/terminus/wiki/Available-Commands"
+}, {
+    "id": "274",
+    "dateAdded": "2015-12-03T19:02:26.056Z",
+    "index": 17,
+    "parentId": "234",
+    "title": "bash - MySQL Command not Found [MAMP] - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/17664021/mysql-command-not-found-mamp"
+}, {
+    "id": "300",
+    "dateAdded": "2015-12-22T19:09:29.159Z",
+    "index": 18,
+    "parentId": "234",
+    "title": "Best html entities",
+    "url": "http://www.evotech.net/blog/2007/04/named-html-entities-in-numeric-order/"
+}, {
+    "id": "427",
+    "dateAdded": "2016-04-18T15:31:44.899Z",
+    "index": 19,
+    "parentId": "234",
+    "title": "Better Interface Design: Logins, Menus, Toggles And Other Fancy Modules – Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/2016/04/inspiring-ui-demos-logins-menus-toggles-and-more/"
+}, {
+    "id": "586",
+    "dateAdded": "2016-07-11T17:39:02.501Z",
+    "index": 20,
+    "parentId": "234",
+    "title": "Beyond Console Debugging Tricks — OutSystems Experts — Medium",
+    "url": "https://medium.com/outsystems-experts/beyond-console-debugging-tricks-f7d0d7f5df4#.wvw9ivf09"
+}, {
+    "id": "581",
+    "dateAdded": "2016-07-07T17:20:03.641Z",
+    "index": 21,
+    "parentId": "234",
+    "title": "Build a Pinterest Clone | Free Code Camp",
+    "url": "https://www.freecodecamp.com/challenges/build-a-pinterest-clone"
+}, {
+    "id": "278",
+    "dateAdded": "2015-12-03T22:26:05.667Z",
+    "index": 22,
+    "parentId": "234",
+    "title": "Bulletproof @font-face syntax - Paul Irish",
+    "url": "http://www.paulirish.com/2009/bulletproof-font-face-implementation-syntax/"
+}, {
+    "id": "290",
+    "dateAdded": "2015-12-17T22:45:36.050Z",
+    "index": 23,
+    "parentId": "234",
+    "title": "Button With Line Breaks | CSS-Tricks",
+    "url": "https://css-tricks.com/snippets/html/button-with-line-breaks/"
+}, {
+    "id": "564",
+    "dateAdded": "2016-06-28T16:48:22.350Z",
+    "index": 24,
+    "parentId": "234",
+    "title": "BYOS: Build Your Own Starter",
+    "url": "http://andrewhfarmer.com/build-your-own-starter/#0-intro"
+}, {
+    "id": "416",
+    "dateAdded": "2016-04-06T20:34:11.287Z",
+    "index": 25,
+    "parentId": "234",
+    "title": "Calling Cross Domain WCF Service using Jquery",
+    "url": "http://www.dotnet-tricks.com/Tutorial/wcf/X8QN260412-Calling-Cross-Domain-WCF-Service-using-Jquery.html"
+}, {
+    "id": "615",
+    "dateAdded": "2016-07-28T17:40:45.481Z",
+    "index": 26,
+    "parentId": "234",
+    "title": "CBS-Viacom reunification doesn’t add up – Breakingviews",
+    "url": "http://local.breakingviews.com/considered-view/cbs-viacom-reunification-doesnt-add-up/"
+}, {
+    "id": "253",
+    "dateAdded": "2015-11-12T22:57:41.817Z",
+    "index": 27,
+    "parentId": "234",
+    "title": "Character Codes",
+    "url": "http://character-code.com/"
+}, {
+    "id": "334",
+    "dateAdded": "2016-02-01T18:20:38.764Z",
+    "index": 28,
+    "parentId": "234",
+    "title": "Child Themes « WordPress Codex",
+    "url": "https://codex.wordpress.org/Child_Themes"
+}, {
+    "id": "267",
+    "dateAdded": "2015-12-01T18:04:36.133Z",
+    "index": 29,
+    "parentId": "234",
+    "title": "Chrome DevTools | Web Tools - Google Developers",
+    "url": "https://developers.google.com/web/tools/chrome-devtools/?hl=en"
+}, {
+    "id": "460",
+    "dateAdded": "2016-05-09T18:59:28.972Z",
+    "index": 30,
+    "parentId": "234",
+    "title": "Coderwall | Remove all your local git branches but keep master",
+    "url": "https://coderwall.com/p/x3jmig/remove-all-your-local-git-branches-but-keep-master"
+}, {
+    "id": "445",
+    "dateAdded": "2016-04-26T20:54:53.482Z",
+    "index": 31,
+    "parentId": "234",
+    "title": "Command Line API Reference - Google Chrome",
+    "url": "https://developer.chrome.com/devtools/docs/commandline-api"
+}, {
+    "id": "309",
+    "dateAdded": "2016-01-07T18:25:25.457Z",
+    "index": 32,
+    "parentId": "234",
+    "title": "Common SSH Commands - Media Temple",
+    "url": "https://mediatemple.net/community/products/dv/204643550/common-ssh-commands"
+}, {
+    "id": "529",
+    "dateAdded": "2016-06-14T17:49:01.900Z",
+    "index": 33,
+    "parentId": "234",
+    "title": "Configure PHP CodeSniffer for Mac OS X | VIA Studio",
+    "url": "http://viastudio.com/configure-php-codesniffer-for-mac-os-x/"
+}, {
+    "id": "612",
+    "dateAdded": "2016-07-27T16:43:12.165Z",
+    "index": 34,
+    "parentId": "234",
+    "title": "Configuring Postfix to Send Mail from Mac OS X Mountain Lion - BenjaminRojas.net BenjaminRojas.net",
+    "url": "https://benjaminrojas.net/configuring-postfix-to-send-mail-from-mac-os-x-mountain-lion/"
+}, {
+    "id": "381",
+    "dateAdded": "2016-03-11T00:03:22.530Z",
+    "index": 35,
+    "parentId": "234",
+    "title": "Convert HTML Table To CSV File Using Javascript | Download Table Ke CSV File Menggunakan Javascript - YouTube",
+    "url": "https://www.youtube.com/watch?v=lZm_VgER5rI"
+}, {
+    "id": "335",
+    "dateAdded": "2016-02-01T21:48:13.042Z",
+    "index": 36,
+    "parentId": "234",
+    "title": "Copy an existing MySQL table to a new table",
+    "url": "http://www.tech-recipes.com/rx/1487/copy-an-existing-mysql-table-to-a-new-table/"
+}, {
+    "id": "352",
+    "dateAdded": "2016-02-23T21:11:26.586Z",
+    "index": 37,
+    "parentId": "234",
+    "title": "CSS Flexbox Properties",
+    "url": "https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties"
+}, {
+    "id": "233",
+    "dateAdded": "2015-10-06T15:52:02.041Z",
+    "index": 38,
+    "parentId": "234",
+    "title": "CSS inliner | Campaign Monitor",
+    "url": "http://inliner.cm/"
+}, {
+    "id": "366",
+    "dateAdded": "2016-03-03T01:54:36.066Z",
+    "index": 39,
+    "parentId": "234",
+    "title": "CSS Inliner Tool | Email Design Reference",
+    "url": "http://templates.mailchimp.com/resources/inline-css/"
+}, {
+    "id": "259",
+    "dateAdded": "2015-11-24T17:50:02.792Z",
+    "index": 40,
+    "parentId": "234",
+    "title": "CSS Support Guide for Email Clients | Campaign Monitor",
+    "url": "https://www.campaignmonitor.com/css/"
+}, {
+    "id": "281",
+    "dateAdded": "2015-12-09T16:33:57.341Z",
+    "index": 41,
+    "parentId": "234",
+    "title": "CSV to JSON - CSVJSON",
+    "url": "http://www.csvjson.com/csv2json"
+}, {
+    "id": "402",
+    "dateAdded": "2016-03-24T19:53:49.730Z",
+    "index": 42,
+    "parentId": "234",
+    "title": "DevDocs API Documentation",
+    "url": "http://devdocs.io/"
+}, {
+    "id": "631",
+    "dateAdded": "2016-08-05T16:32:12.308Z",
+    "index": 43,
+    "parentId": "234",
+    "title": "directory-tree",
+    "url": "https://www.npmjs.com/package/directory-tree"
+}, {
+    "id": "421",
+    "dateAdded": "2016-04-12T23:12:34.068Z",
+    "index": 44,
+    "parentId": "234",
+    "title": "Display a portion/ branch of the menu tree using wp_nav_menu() - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/2802/display-a-portion-branch-of-the-menu-tree-using-wp-nav-menu/2809#2809"
+}, {
+    "id": "299",
+    "dateAdded": "2015-12-22T18:25:28.272Z",
+    "index": 45,
+    "parentId": "234",
+    "title": "Draw a circle with a radius on a map",
+    "url": "http://www.mapdevelopers.com/draw-circle-tool.php"
+}, {
+    "id": "275",
+    "dateAdded": "2015-12-03T22:16:19.521Z",
+    "index": 46,
+    "parentId": "234",
+    "title": "Edit an incorrect commit message in Git - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git"
+}, {
+    "id": "549",
+    "dateAdded": "2016-06-23T16:11:30.950Z",
+    "index": 47,
+    "parentId": "234",
+    "title": "Edward Snowden",
+    "url": "https://snowden.persona.co/"
+}, {
+    "id": "308",
+    "dateAdded": "2016-01-04T23:22:58.694Z",
+    "index": 48,
+    "parentId": "234",
+    "title": "EJ Media - YouTube",
+    "url": "https://www.youtube.com/channel/UC-JQzTHQrVA8j-tamvy66fw/playlists"
+}, {
+    "id": "303",
+    "dateAdded": "2016-01-04T16:58:07.054Z",
+    "index": 49,
+    "parentId": "234",
+    "title": "Favicon & App Icon Generator",
+    "url": "http://www.favicon-generator.org/"
+}, {
+    "id": "627",
+    "dateAdded": "2016-08-04T20:16:14.256Z",
+    "index": 50,
+    "parentId": "234",
+    "title": "FileFormat.Info Site Search",
+    "url": "http://www.fileformat.info/search/google.htm?q=trademark&domains=www.fileformat.info&sitesearch=www.fileformat.info&client=pub-6975096118196151&forid=1&channel=1657057343&ie=UTF-8&oe=UTF-8&cof=GALT%3A%23008000%3BGL%3A1%3BDIV%3A%23336699%3BVLC%3A663399%3BAH%3Acenter%3BBGC%3AFFFFFF%3BLBGC%3A336699%3BALC%3A0000FF%3BLC%3A0000FF%3BT%3A000000%3BGFNT%3A0000FF%3BGIMP%3A0000FF%3BFORID%3A11&hl=en"
+}, {
+    "id": "601",
+    "dateAdded": "2016-07-15T20:12:41.116Z",
+    "index": 51,
+    "parentId": "234",
+    "title": "Flat Design and Material Design: If There Is Any Difference",
+    "url": "https://www.cleveroad.com/blog/flat-design-vs-material-design-how-different-they-are?ref=webdesignernews.com"
+}, {
+    "id": "562",
+    "dateAdded": "2016-06-28T16:44:47.008Z",
+    "index": 52,
+    "parentId": "234",
+    "title": "Flex Layout Attribute (FLA)",
+    "url": "http://progressivered.com/fla/?d=0&v=1&h=1&s=0&i=000&a=000"
+}, {
+    "id": "485",
+    "dateAdded": "2016-05-19T21:20:09.205Z",
+    "index": 53,
+    "parentId": "234",
+    "title": "Formatting Date and Time « WordPress Codex",
+    "url": "https://codex.wordpress.org/Formatting_Date_and_Time"
+}, {
+    "id": "368",
+    "dateAdded": "2016-03-03T03:59:27.335Z",
+    "index": 54,
+    "parentId": "234",
+    "title": "Foundation for Emails | Responsive Email CSS Inliner",
+    "url": "http://foundation.zurb.com/emails/inliner.html"
+}, {
+    "id": "367",
+    "dateAdded": "2016-03-03T03:59:23.687Z",
+    "index": 55,
+    "parentId": "234",
+    "title": "Foundation for Emails | Responsive Email Templates",
+    "url": "http://foundation.zurb.com/emails/email-templates.html"
+}, {
+    "id": "423",
+    "dateAdded": "2016-04-14T18:38:52.186Z",
+    "index": 56,
+    "parentId": "234",
+    "title": "Get posts for custom taxonomies & terms in WordPress",
+    "url": "http://www.webdevdoor.com/wordpress/get-posts-custom-taxonomies-terms"
+}, {
+    "id": "543",
+    "dateAdded": "2016-06-20T17:10:26.711Z",
+    "index": 57,
+    "parentId": "234",
+    "title": "get_date_from_gmt() | Function | WordPress Developer Resources",
+    "url": "https://developer.wordpress.org/reference/functions/get_date_from_gmt/"
+}, {
+    "id": "373",
+    "dateAdded": "2016-03-08T19:01:27.398Z",
+    "index": 58,
+    "parentId": "234",
+    "title": "Getting started - Grunt: The JavaScript Task Runner",
+    "url": "http://gruntjs.com/getting-started"
+}, {
+    "id": "630",
+    "dateAdded": "2016-08-05T15:53:40.241Z",
+    "index": 59,
+    "parentId": "234",
+    "title": "Getting started with facebook react with instant search sample program",
+    "url": "http://voidcanvas.com/react-tutorial-understanding-and-making-the-first-application/"
+}, {
+    "id": "356",
+    "dateAdded": "2016-02-24T22:42:13.064Z",
+    "index": 60,
+    "parentId": "234",
+    "title": "Getting Started with Kendo UI for ASP.NET MVC - YouTube",
+    "url": "https://www.youtube.com/watch?v=0Gsy18e1cCM"
+}, {
+    "id": "666",
+    "dateAdded": "2016-08-23T22:02:27.475Z",
+    "index": 61,
+    "parentId": "234",
+    "title": "git - How do I access my SSH public key? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/3828164/how-do-i-access-my-ssh-public-key"
+}, {
+    "id": "475",
+    "dateAdded": "2016-05-16T20:26:28.722Z",
+    "index": 62,
+    "parentId": "234",
+    "title": "git - the simple guide - no deep shit!",
+    "url": "http://rogerdudler.github.io/git-guide/"
+}, {
+    "id": "635",
+    "dateAdded": "2016-08-08T19:51:31.540Z",
+    "index": 63,
+    "parentId": "234",
+    "title": "git: revert (reset) a single file",
+    "url": "http://www.norbauer.com/rails-consulting/notes/git-revert-reset-a-single-file.html"
+}, {
+    "id": "493",
+    "dateAdded": "2016-05-23T18:54:17.104Z",
+    "index": 64,
+    "parentId": "234",
+    "title": "GitHub - cjdell/react-native-fs-test: React Native FS Test",
+    "url": "https://github.com/cjdell/react-native-fs-test"
+}, {
+    "id": "492",
+    "dateAdded": "2016-05-23T16:59:36.709Z",
+    "index": 65,
+    "parentId": "234",
+    "title": "GitHub - filamentgroup/loadCSS: A function for loading CSS asynchronously",
+    "url": "https://github.com/filamentgroup/loadCSS"
+}, {
+    "id": "547",
+    "dateAdded": "2016-06-22T17:20:43.455Z",
+    "index": 66,
+    "parentId": "234",
+    "title": "GitHub - pantheon-systems/terminus: The Pantheon CLI — a standalone utility for performing operations on the Pantheon Platform",
+    "url": "https://github.com/pantheon-systems/terminus"
+}, {
+    "id": "481",
+    "dateAdded": "2016-05-19T15:30:09.294Z",
+    "index": 67,
+    "parentId": "234",
+    "title": "GitHub - postcss/autoprefixer: Parse CSS and add vendor prefixes to rules by Can I Use",
+    "url": "https://github.com/postcss/autoprefixer"
+}, {
+    "id": "291",
+    "dateAdded": "2015-12-18T17:37:32.145Z",
+    "index": 68,
+    "parentId": "234",
+    "title": "Google Analytics Event Tracking analytics.js - YouTube",
+    "url": "https://www.youtube.com/watch?v=0_AryETXGSk"
+}, {
+    "id": "504",
+    "dateAdded": "2016-05-26T23:03:54.995Z",
+    "index": 69,
+    "parentId": "234",
+    "title": "Hosted Libraries  |  Hosted Libraries  |  Google Developers",
+    "url": "https://developers.google.com/speed/libraries/"
+}, {
+    "id": "661",
+    "dateAdded": "2016-08-22T17:07:39.165Z",
+    "index": 70,
+    "parentId": "234",
+    "title": "How can I add a key/value pair to a JavaScript object? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/1168807/how-can-i-add-a-key-value-pair-to-a-javascript-object"
+}, {
+    "id": "469",
+    "dateAdded": "2016-05-12T16:10:57.048Z",
+    "index": 71,
+    "parentId": "234",
+    "title": "How to Build an Android To-Do App with PhoneGap, HTML and jQuery | PACKT Books",
+    "url": "https://www.packtpub.com/books/content/how-to-build-an-android-todo-app-with-phonegap-html-and-jquery"
+}, {
+    "id": "347",
+    "dateAdded": "2016-02-17T22:13:42.335Z",
+    "index": 72,
+    "parentId": "234",
+    "title": "How to Create a Custom WordPress Navigation Menu with the Code? - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/32186/how-to-create-a-custom-wordpress-navigation-menu-with-the-code"
+}, {
+    "id": "505",
+    "dateAdded": "2016-05-26T23:41:02.827Z",
+    "index": 73,
+    "parentId": "234",
+    "title": "How to Create a Twitter Card",
+    "url": "https://davidwalsh.name/twitter-cards"
+}, {
+    "id": "430",
+    "dateAdded": "2016-04-18T21:23:20.343Z",
+    "index": 74,
+    "parentId": "234",
+    "title": "How to Create an AJAX Contact Form - Treehouse Blog",
+    "url": "http://blog.teamtreehouse.com/create-ajax-contact-form"
+}, {
+    "id": "470",
+    "dateAdded": "2016-05-12T16:12:44.909Z",
+    "index": 75,
+    "parentId": "234",
+    "title": "How to create note making application in phonegap - Eduonix.com | Blog",
+    "url": "https://www.eduonix.com/blog/android-tutorials/create-note-making-application-phonegap/"
+}, {
+    "id": "377",
+    "dateAdded": "2016-03-10T18:09:52.501Z",
+    "index": 76,
+    "parentId": "234",
+    "title": "How to Fix the WordPress White Screen of Death",
+    "url": "http://www.wpbeginner.com/wp-tutorials/how-to-fix-the-wordpress-white-screen-of-death/"
+}, {
+    "id": "376",
+    "dateAdded": "2016-03-10T18:09:27.317Z",
+    "index": 77,
+    "parentId": "234",
+    "title": "How to fix the WordPress white screen of death — The Theme Foundry",
+    "url": "https://thethemefoundry.com/blog/wordpress-white-screen-of-death/"
+}, {
+    "id": "342",
+    "dateAdded": "2016-02-10T21:46:55.440Z",
+    "index": 78,
+    "parentId": "234",
+    "title": "How To Generate CSS Click Events And Thoughts About Whether You Should - Vanseo Design",
+    "url": "http://vanseodesign.com/css/click-events/"
+}, {
+    "id": "545",
+    "dateAdded": "2016-06-21T17:16:14.814Z",
+    "index": 79,
+    "parentId": "234",
+    "title": "How to Get the Current URL in WordPress – Konstantin Kovshenin",
+    "url": "https://kovshenin.com/2012/current-url-in-wordpress/"
+}, {
+    "id": "465",
+    "dateAdded": "2016-05-11T19:09:56.631Z",
+    "index": 80,
+    "parentId": "234",
+    "title": "How to Import and Display RSS Feeds in WordPress | Perishable Press",
+    "url": "https://perishablepress.com/import-and-display-rss-feeds-in-wordpress/"
+}, {
+    "id": "237",
+    "dateAdded": "2015-10-21T17:43:33.854Z",
+    "index": 81,
+    "parentId": "234",
+    "title": "How To Import and Export Databases and Reset a Root Password in MySQL | DigitalOcean",
+    "url": "https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-and-reset-a-root-password-in-mysql"
+}, {
+    "id": "559",
+    "dateAdded": "2016-06-27T20:42:42.383Z",
+    "index": 82,
+    "parentId": "234",
+    "title": "How To Install Drupal 8 With MAMP (Drupal 8 Tutorial #1) (Article + Video) | WDTutorials.com",
+    "url": "http://www.wdtutorials.com/drupal/setup/how-to-install-drupal-8-mamp-drupal-8-tutorial-1-article-video#.V3GO6BIrKSo"
+}, {
+    "id": "526",
+    "dateAdded": "2016-06-13T21:35:00.177Z",
+    "index": 83,
+    "parentId": "234",
+    "title": "How to pass a 2-minute UX portfolio screening — Medium",
+    "url": "https://medium.com/@suelynyu/how-to-pass-a-2-minute-ux-portfolio-screening-dd0e2c09f2ef#.pzcqftb46"
+}, {
+    "id": "405",
+    "dateAdded": "2016-03-25T19:22:10.891Z",
+    "index": 84,
+    "parentId": "234",
+    "title": "How to post forms to clean, rewritten URLs without JavaScript: a PHP and mod_rewrite tutorial",
+    "url": "http://matthewjamestaylor.com/blog/how-to-post-forms-to-clean-rewritten-urls"
+}, {
+    "id": "322",
+    "dateAdded": "2016-01-20T18:23:30.522Z",
+    "index": 85,
+    "parentId": "234",
+    "title": "How to Properly Add JavaScripts and Styles in WordPress",
+    "url": "http://www.wpbeginner.com/wp-tutorials/how-to-properly-add-javascripts-and-styles-in-wordpress/"
+}, {
+    "id": "395",
+    "dateAdded": "2016-03-23T19:42:53.085Z",
+    "index": 86,
+    "parentId": "234",
+    "title": "How to Set a Static IP Address in Mac OS X | Macinstruct",
+    "url": "http://www.macinstruct.com/node/550"
+}, {
+    "id": "333",
+    "dateAdded": "2016-02-01T18:20:33.921Z",
+    "index": 87,
+    "parentId": "234",
+    "title": "How To Set Up nginx Virtual Hosts (Server Blocks) on Ubuntu 12.04 LTS | DigitalOcean",
+    "url": "https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-ubuntu-12-04-lts--3"
+}, {
+    "id": "616",
+    "dateAdded": "2016-07-29T15:59:21.049Z",
+    "index": 88,
+    "parentId": "234",
+    "title": "html - Disabling Webkit Form Input Shadow - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/2372904/disabling-webkit-form-input-shadow"
+}, {
+    "id": "451",
+    "dateAdded": "2016-05-04T15:40:04.309Z",
+    "index": 89,
+    "parentId": "234",
+    "title": "html - How to retrieve value from elements in array using jQuery? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/12206660/how-to-retrieve-value-from-elements-in-array-using-jquery"
+}, {
+    "id": "654",
+    "dateAdded": "2016-08-17T18:03:00.977Z",
+    "index": 90,
+    "parentId": "234",
+    "title": "HTML Imports: #include for the web - HTML5 Rocks",
+    "url": "http://www.html5rocks.com/en/tutorials/webcomponents/imports/"
+}, {
+    "id": "433",
+    "dateAdded": "2016-04-19T18:47:00.659Z",
+    "index": 91,
+    "parentId": "234",
+    "title": "HTML Sitemap for WordPress - a Template - Yoast",
+    "url": "https://yoast.com/html-sitemap-wordpress/"
+}, {
+    "id": "256",
+    "dateAdded": "2015-11-22T19:52:33.584Z",
+    "index": 92,
+    "parentId": "234",
+    "title": "HTML2Jade - HTML to Jade Online Realtime Converter",
+    "url": "http://html2jade.org/"
+}, {
+    "id": "671",
+    "dateAdded": "2016-08-25T16:53:38.210Z",
+    "index": 93,
+    "parentId": "234",
+    "title": "HTML5 UP! Responsive HTML5 and CSS3 Site Templates",
+    "url": "https://html5up.net/"
+}, {
+    "id": "670",
+    "dateAdded": "2016-08-25T15:16:38.636Z",
+    "index": 94,
+    "parentId": "234",
+    "title": "http - Easy way to test a URL for 404 in PHP? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/408405/easy-way-to-test-a-url-for-404-in-php"
+}, {
+    "id": "483",
+    "dateAdded": "2016-05-19T16:50:47.270Z",
+    "index": 95,
+    "parentId": "234",
+    "title": "Hugo :: A fast and modern static website engine",
+    "url": "http://gohugo.io/"
+}, {
+    "id": "426",
+    "dateAdded": "2016-04-18T15:30:49.153Z",
+    "index": 96,
+    "parentId": "234",
+    "title": "Interactive Form",
+    "url": "http://codepen.io/epilande/pen/eZJGpP"
+}, {
+    "id": "478",
+    "dateAdded": "2016-05-17T19:15:16.840Z",
+    "index": 97,
+    "parentId": "234",
+    "title": "internet explorer - How can I set CSS only for specific IE browsers? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/8874290/how-can-i-set-css-only-for-specific-ie-browsers"
+}, {
+    "id": "360",
+    "dateAdded": "2016-02-26T21:49:03.881Z",
+    "index": 98,
+    "parentId": "234",
+    "title": "Intro to ASP.NET MVC 3 (C#) | The ASP.NET Site",
+    "url": "http://www.asp.net/mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3"
+}, {
+    "id": "662",
+    "dateAdded": "2016-08-22T18:17:44.281Z",
+    "index": 99,
+    "parentId": "234",
+    "title": "iterating through json object javascript - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/19323699/iterating-through-json-object-javascript"
+}, {
+    "id": "388",
+    "dateAdded": "2016-03-18T19:32:53.395Z",
+    "index": 100,
+    "parentId": "234",
+    "title": "javascript - How do I replace the very last character in a text area field? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/6603336/how-do-i-replace-the-very-last-character-in-a-text-area-field"
+}, {
+    "id": "663",
+    "dateAdded": "2016-08-22T18:17:49.094Z",
+    "index": 101,
+    "parentId": "234",
+    "title": "JavaScript check if variable exists (is defined/initialized) - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/5113374/javascript-check-if-variable-exists-is-defined-initialized"
+}, {
+    "id": "345",
+    "dateAdded": "2016-02-17T19:16:15.453Z",
+    "index": 102,
+    "parentId": "234",
+    "title": "JavaScript MD5 hash generator for WP",
+    "url": "http://pajhome.org.uk/crypt/md5/"
+}, {
+    "id": "651",
+    "dateAdded": "2016-08-16T21:54:01.901Z",
+    "index": 103,
+    "parentId": "234",
+    "title": "jquery validate - How to make url validation without http ( or add it after validation passed )? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/12741517/how-to-make-url-validation-without-http-or-add-it-after-validation-passed"
+}, {
+    "id": "477",
+    "dateAdded": "2016-05-16T20:32:16.491Z",
+    "index": 104,
+    "parentId": "234",
+    "title": "Launch Sublime Text 3 from the command line",
+    "url": "http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/"
+}, {
+    "id": "523",
+    "dateAdded": "2016-06-13T20:51:51.778Z",
+    "index": 105,
+    "parentId": "234",
+    "title": "Learn How to Search in Your Files and Folders via SSH Tutorial",
+    "url": "https://www.siteground.com/tutorials/ssh/ssh_searching.htm"
+}, {
+    "id": "676",
+    "dateAdded": "2016-08-26T17:24:36.859Z",
+    "index": 106,
+    "parentId": "234",
+    "title": "linux - Bash script to replace spaces in file names - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/2709458/bash-script-to-replace-spaces-in-file-names"
+}, {
+    "id": "321",
+    "dateAdded": "2016-01-20T00:03:26.114Z",
+    "index": 107,
+    "parentId": "234",
+    "title": "Local Testing with Windows Running in Virtualbox and MAMP Pro",
+    "url": "http://wpthemetutorial.com/2013/03/21/local-testing-with-windows-in-virtualbox/"
+}, {
+    "id": "553",
+    "dateAdded": "2016-06-23T21:38:51.101Z",
+    "index": 108,
+    "parentId": "234",
+    "title": "Mastering Markdown · GitHub Guides",
+    "url": "https://guides.github.com/features/mastering-markdown/"
+}, {
+    "id": "511",
+    "dateAdded": "2016-06-06T20:54:37.292Z",
+    "index": 109,
+    "parentId": "234",
+    "title": "Media Types",
+    "url": "http://www.iana.org/assignments/media-types/media-types.xhtml#image"
+}, {
+    "id": "398",
+    "dateAdded": "2016-03-24T15:35:51.391Z",
+    "index": 110,
+    "parentId": "234",
+    "title": "mobile-detect.js",
+    "url": "http://hgoebl.github.io/mobile-detect.js/"
+}, {
+    "id": "556",
+    "dateAdded": "2016-06-27T18:58:39.666Z",
+    "index": 111,
+    "parentId": "234",
+    "title": "mod_rewrite - Apache HTTP Server Version 2.5",
+    "url": "https://httpd.apache.org/docs/trunk/mod/mod_rewrite.html"
+}, {
+    "id": "252",
+    "dateAdded": "2015-11-12T22:52:39.469Z",
+    "index": 112,
+    "parentId": "234",
+    "title": "Name that Color - Chirag Mehta : chir.ag",
+    "url": "http://chir.ag/projects/name-that-color/#7B6954"
+}, {
+    "id": "587",
+    "dateAdded": "2016-07-11T18:23:22.299Z",
+    "index": 113,
+    "parentId": "234",
+    "title": "Name that Color - Chirag Mehta : chir.ag",
+    "url": "http://chir.ag/projects/name-that-color/#6195ED"
+}, {
+    "id": "585",
+    "dateAdded": "2016-07-11T17:38:18.723Z",
+    "index": 114,
+    "parentId": "234",
+    "title": "NamPNQ/You-Dont-Need-Javascript: Css is powerful, you can do a lot of things without js.",
+    "url": "https://github.com/NamPNQ/You-Dont-Need-Javascript"
+}, {
+    "id": "438",
+    "dateAdded": "2016-04-20T16:45:20.581Z",
+    "index": 115,
+    "parentId": "234",
+    "title": "Nesting months under years in a wordpress archive dropdown list | down with design",
+    "url": "http://www.downwithdesign.com/wordpress/nesting-months-years-wordpress-archive-dropdown-list/"
+}, {
+    "id": "609",
+    "dateAdded": "2016-07-26T18:37:42.375Z",
+    "index": 116,
+    "parentId": "234",
+    "title": "Nginx redirect all contents of a subdirectory to another subdirectory - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/25446989/nginx-redirect-all-contents-of-a-subdirectory-to-another-subdirectory"
+}, {
+    "id": "520",
+    "dateAdded": "2016-06-10T17:00:50.411Z",
+    "index": 117,
+    "parentId": "234",
+    "title": "Nginx Web Rules & Rewrites – MODX Cloud Support",
+    "url": "https://support.modx.com/hc/en-us/articles/217295387-Nginx-Web-Rules-Rewrites"
+}, {
+    "id": "399",
+    "dateAdded": "2016-03-24T15:59:19.443Z",
+    "index": 118,
+    "parentId": "234",
+    "title": "Only Grab the Files You Need While Using Bower | Scotch",
+    "url": "https://scotch.io/tutorials/only-grab-the-files-you-need-while-using-bower"
+}, {
+    "id": "359",
+    "dateAdded": "2016-02-25T22:41:45.587Z",
+    "index": 119,
+    "parentId": "234",
+    "title": "osx lion - How to run iPhone emulator WITHOUT starting xCode? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/10379622/how-to-run-iphone-emulator-without-starting-xcode"
+}, {
+    "id": "244",
+    "dateAdded": "2015-10-29T21:18:29.085Z",
+    "index": 120,
+    "parentId": "234",
+    "title": "Paletton - The Color Scheme Designer",
+    "url": "http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF"
+}, {
+    "id": "540",
+    "dateAdded": "2016-06-17T17:12:10.194Z",
+    "index": 121,
+    "parentId": "234",
+    "title": "Panda",
+    "url": "chrome://newtab/"
+}, {
+    "id": "648",
+    "dateAdded": "2016-08-15T18:51:43.980Z",
+    "index": 122,
+    "parentId": "234",
+    "title": "Passing Arguments as an Associative Array to a Function - Web Design & Development Talk",
+    "url": "http://www.web-design-talk.co.uk/266/passing-associative-arrays-functions/"
+}, {
+    "id": "385",
+    "dateAdded": "2016-03-17T18:18:17.579Z",
+    "index": 123,
+    "parentId": "234",
+    "title": "Paul Sheriff's Blog for the Real World - Clean up after Visual Studio",
+    "url": "http://weblogs.asp.net/psheriff/clean-up-after-visual-studio"
+}, {
+    "id": "624",
+    "dateAdded": "2016-08-03T18:30:19.384Z",
+    "index": 124,
+    "parentId": "234",
+    "title": "php - Add http:// prefix to URL when missing - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/6240414/add-http-prefix-to-url-when-missing"
+}, {
+    "id": "498",
+    "dateAdded": "2016-05-25T19:03:20.206Z",
+    "index": 125,
+    "parentId": "234",
+    "title": "php - Check if string contains specific words? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/4366730/check-if-string-contains-specific-words"
+}, {
+    "id": "619",
+    "dateAdded": "2016-08-02T18:26:39.183Z",
+    "index": 126,
+    "parentId": "234",
+    "title": "php - If else embedding inside html - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/4731810/if-else-embedding-inside-html"
+}, {
+    "id": "406",
+    "dateAdded": "2016-03-25T20:21:31.408Z",
+    "index": 127,
+    "parentId": "234",
+    "title": "PHP Redirect to URL After Form Submission | FormGet",
+    "url": "http://www.formget.com/how-to-redirect-a-url-php-form/"
+}, {
+    "id": "600",
+    "dateAdded": "2016-07-14T18:43:57.815Z",
+    "index": 128,
+    "parentId": "234",
+    "title": "PHP Shorthand If/Else Using Ternary Operators (?:)",
+    "url": "https://davidwalsh.name/php-shorthand-if-else-ternary-operators"
+}, {
+    "id": "502",
+    "dateAdded": "2016-05-26T19:42:10.457Z",
+    "index": 129,
+    "parentId": "234",
+    "title": "PHP: empty - Manual",
+    "url": "http://php.net/manual/en/function.empty.php"
+}, {
+    "id": "471",
+    "dateAdded": "2016-05-12T16:17:40.559Z",
+    "index": 130,
+    "parentId": "234",
+    "title": "platform/packages/apps/Calendar.git - Git at Google",
+    "url": "https://android.googlesource.com/platform/packages/apps/Calendar.git/"
+}, {
+    "id": "546",
+    "dateAdded": "2016-06-21T19:46:29.093Z",
+    "index": 131,
+    "parentId": "234",
+    "title": "POP - Prototyping on Paper | Mobile App Prototyping Made Easy",
+    "url": "https://popapp.in/"
+}, {
+    "id": "428",
+    "dateAdded": "2016-04-18T20:25:23.767Z",
+    "index": 132,
+    "parentId": "234",
+    "title": "Postfix will not load; master.lock file permission denied | Howtoforge - Linux Howtos and Tutorials",
+    "url": "https://www.howtoforge.com/community/threads/postfix-will-not-load-master-lock-file-permission-denied.38023/"
+}, {
+    "id": "420",
+    "dateAdded": "2016-04-12T16:04:53.491Z",
+    "index": 133,
+    "parentId": "234",
+    "title": "Pure CSS saving/loading dots animation | Martin Wolf — Frontend Web Developer",
+    "url": "https://martinwolf.org/blog/2015/01/pure-css-savingloading-dots-animation"
+}, {
+    "id": "672",
+    "dateAdded": "2016-08-25T17:17:48.262Z",
+    "index": 134,
+    "parentId": "234",
+    "title": "Quick command to check the status of a URL (Linux, BSD, OS X)",
+    "url": "http://droptips.com/quick-command-to-check-the-status-of-a-url-linux-bsd-os-x"
+}, {
+    "id": "550",
+    "dateAdded": "2016-06-23T20:03:39.474Z",
+    "index": 135,
+    "parentId": "234",
+    "title": "qwikLABS | Home - Hands-On Labs - Amazon Web Services Training and Certification Prep",
+    "url": "https://run.qwiklabs.com/"
+}, {
+    "id": "448",
+    "dateAdded": "2016-05-03T16:06:39.182Z",
+    "index": 136,
+    "parentId": "234",
+    "title": "Range selection in Kendo UI DatePicker | Kendo UI Web Demos",
+    "url": "http://demos.telerik.com/kendo-ui/datepicker/rangeselection"
+}, {
+    "id": "462",
+    "dateAdded": "2016-05-09T20:47:22.082Z",
+    "index": 137,
+    "parentId": "234",
+    "title": "Rate Limiting with Nginx | Lincoln Loop",
+    "url": "https://lincolnloop.com/blog/rate-limiting-nginx/"
+}, {
+    "id": "658",
+    "dateAdded": "2016-08-18T17:16:20.624Z",
+    "index": 138,
+    "parentId": "234",
+    "title": "react-select-box/example.js at master · instructure-react/react-select-box",
+    "url": "https://github.com/instructure-react/react-select-box/blob/master/example/example.js"
+}, {
+    "id": "539",
+    "dateAdded": "2016-06-16T21:23:11.253Z",
+    "index": 139,
+    "parentId": "234",
+    "title": "React.js Tutorial Pt 1: A Comprehensive Guide to Building Apps with React.js | Tyler McGinnis",
+    "url": "http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/"
+}, {
+    "id": "620",
+    "dateAdded": "2016-08-02T20:57:37.156Z",
+    "index": 140,
+    "parentId": "234",
+    "title": "reCAPTCHA 2.0 with PHP Code Demo/Tutorial",
+    "url": "http://www.kaplankomputing.com/blog/tutorials/recaptcha-php-demo-tutorial/"
+}, {
+    "id": "557",
+    "dateAdded": "2016-06-27T18:58:43.970Z",
+    "index": 141,
+    "parentId": "234",
+    "title": "Redirecting and Remapping with mod_rewrite - Apache HTTP Server Version 2.5",
+    "url": "https://httpd.apache.org/docs/trunk/rewrite/remapping.html"
+}, {
+    "id": "487",
+    "dateAdded": "2016-05-20T16:09:31.263Z",
+    "index": 142,
+    "parentId": "234",
+    "title": "Release v3.0.0 · mxstbr/react-boilerplate · GitHub",
+    "url": "https://github.com/mxstbr/react-boilerplate/releases/tag/v3.0.0"
+}, {
+    "id": "457",
+    "dateAdded": "2016-05-05T21:04:34.248Z",
+    "index": 143,
+    "parentId": "234",
+    "title": "Remove the 28px Push Down from the Admin Bar | CSS-Tricks",
+    "url": "https://css-tricks.com/snippets/wordpress/remove-the-28px-push-down-from-the-admin-bar/"
+}, {
+    "id": "655",
+    "dateAdded": "2016-08-17T20:59:51.842Z",
+    "index": 144,
+    "parentId": "234",
+    "title": "Removing a remote - User Documentation",
+    "url": "https://help.github.com/articles/removing-a-remote/"
+}, {
+    "id": "593",
+    "dateAdded": "2016-07-13T18:08:33.284Z",
+    "index": 145,
+    "parentId": "234",
+    "title": "Reset the DNS cache in OS X - Apple Support",
+    "url": "https://support.apple.com/en-us/HT202516"
+}, {
+    "id": "494",
+    "dateAdded": "2016-05-23T20:32:35.628Z",
+    "index": 146,
+    "parentId": "234",
+    "title": "Restrict admin access to certain pages for certain users - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/91330/restrict-admin-access-to-certain-pages-for-certain-users"
+}, {
+    "id": "519",
+    "dateAdded": "2016-06-10T17:00:04.674Z",
+    "index": 147,
+    "parentId": "234",
+    "title": "rewrite - How to redirect single url in nginx? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/18037716/how-to-redirect-single-url-in-nginx"
+}, {
+    "id": "673",
+    "dateAdded": "2016-08-25T17:20:09.343Z",
+    "index": 148,
+    "parentId": "234",
+    "title": "Saving a curl response into a php variable - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/16338174/saving-a-curl-response-into-a-php-variable"
+}, {
+    "id": "400",
+    "dateAdded": "2016-03-24T16:00:43.768Z",
+    "index": 149,
+    "parentId": "234",
+    "title": "Scotch | Developers bringing fire to the people.",
+    "url": "https://scotch.io/"
+}, {
+    "id": "639",
+    "dateAdded": "2016-08-09T18:22:22.020Z",
+    "index": 150,
+    "parentId": "234",
+    "title": "Search: list  |  YouTube Data API  |  Google Developers",
+    "url": "https://developers.google.com/youtube/v3/docs/search/list"
+}, {
+    "id": "461",
+    "dateAdded": "2016-05-09T20:01:59.873Z",
+    "index": 151,
+    "parentId": "234",
+    "title": "security - How to properly add CSRF token using PHP - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/6287903/how-to-properly-add-csrf-token-using-php"
+}, {
+    "id": "632",
+    "dateAdded": "2016-08-05T21:50:12.241Z",
+    "index": 152,
+    "parentId": "234",
+    "title": "send - Sailthru Documentation",
+    "url": "https://getstarted.sailthru.com/new-for-developers-overview/email-and-user-profiles/send/"
+}, {
+    "id": "429",
+    "dateAdded": "2016-04-18T20:25:28.253Z",
+    "index": 153,
+    "parentId": "234",
+    "title": "Setting up postfix on Mamp and Mavericks to send via Gmail - Platoon",
+    "url": "https://yourplatoon.com/blog/setting-up-postfix-on-mamp-and-mavericks-to-send-via-gmail/"
+}, {
+    "id": "484",
+    "dateAdded": "2016-05-19T21:02:39.780Z",
+    "index": 154,
+    "parentId": "234",
+    "title": "Shortcode API « WordPress Codex",
+    "url": "https://codex.wordpress.org/Shortcode_API"
+}, {
+    "id": "467",
+    "dateAdded": "2016-05-11T21:11:04.575Z",
+    "index": 155,
+    "parentId": "234",
+    "title": "Shortcodes with Parameters | Plugin Developer Handbook | WordPress Developer Resources",
+    "url": "https://developer.wordpress.org/plugins/shortcodes/shortcodes-with-parameters/"
+}, {
+    "id": "642",
+    "dateAdded": "2016-08-13T17:01:27.912Z",
+    "index": 156,
+    "parentId": "234",
+    "title": "Smooth as Butter: Achieving 60 FPS Animations with CSS3 — OutSystems Experts — Medium",
+    "url": "https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108#.n0kws6a4w"
+}, {
+    "id": "330",
+    "dateAdded": "2016-01-28T17:44:03.897Z",
+    "index": 157,
+    "parentId": "234",
+    "title": "Speed Up Your Terminal Workflow with Command Aliases and .profile - Envato Tuts+ Computer Skills Tutorial",
+    "url": "http://computers.tutsplus.com/tutorials/speed-up-your-terminal-workflow-with-command-aliases-and-profile--mac-30515"
+}, {
+    "id": "578",
+    "dateAdded": "2016-07-06T18:58:35.323Z",
+    "index": 158,
+    "parentId": "234",
+    "title": "Srcset and sizes — ericportis.com",
+    "url": "https://ericportis.com/posts/2014/srcset-sizes/"
+}, {
+    "id": "241",
+    "dateAdded": "2015-10-27T17:55:35.100Z",
+    "index": 159,
+    "parentId": "234",
+    "title": "SSH public key",
+    "url": "https://www.linode.com/docs/security/use-public-key-authentication-with-ssh"
+}, {
+    "id": "442",
+    "dateAdded": "2016-04-21T21:24:28.808Z",
+    "index": 160,
+    "parentId": "234",
+    "title": "Terminal 101: Creating Aliases for Commands | TechRadar",
+    "url": "http://www.techradar.com/us/how-to/computing/apple/terminal-101-creating-aliases-for-commands-1305638"
+}, {
+    "id": "476",
+    "dateAdded": "2016-05-16T20:28:42.244Z",
+    "index": 161,
+    "parentId": "234",
+    "title": "Terminal 101: Creating Cron Jobs | TechRadar",
+    "url": "http://www.techradar.com/us/how-to/computing/apple/terminal-101-creating-cron-jobs-1305651"
+}, {
+    "id": "298",
+    "dateAdded": "2015-12-21T19:20:04.821Z",
+    "index": 162,
+    "parentId": "234",
+    "title": "Textarea Tricks | CSS-Tricks",
+    "url": "https://css-tricks.com/textarea-tricks/"
+}, {
+    "id": "422",
+    "dateAdded": "2016-04-14T16:46:35.329Z",
+    "index": 163,
+    "parentId": "234",
+    "title": "The Complete Guide To Custom Post Types",
+    "url": "https://www.smashingmagazine.com/2012/11/complete-guide-custom-post-types/"
+}, {
+    "id": "348",
+    "dateAdded": "2016-02-19T17:40:28.894Z",
+    "index": 164,
+    "parentId": "234",
+    "title": "The Nano Text Editor",
+    "url": "http://mintaka.sdsu.edu/reu/nano.html"
+}, {
+    "id": "645",
+    "dateAdded": "2016-08-15T17:40:16.389Z",
+    "index": 165,
+    "parentId": "234",
+    "title": "The simplest way to require/include wp-load.php |",
+    "url": "https://frankiejarrett.com/2012/04/the-simplest-way-to-require-include-wp-load-php/"
+}, {
+    "id": "590",
+    "dateAdded": "2016-07-12T18:18:15.789Z",
+    "index": 166,
+    "parentId": "234",
+    "title": "Theremin",
+    "url": "http://stuartmemo.com/smashing-magazine/theremin/"
+}, {
+    "id": "488",
+    "dateAdded": "2016-05-20T17:00:30.264Z",
+    "index": 167,
+    "parentId": "234",
+    "title": "Thinking in react",
+    "url": "http://tagtree.tv/thinking-in-react"
+}, {
+    "id": "489",
+    "dateAdded": "2016-05-20T21:58:40.364Z",
+    "index": 168,
+    "parentId": "234",
+    "title": "Thinking in React | React",
+    "url": "https://facebook.github.io/react/docs/thinking-in-react.html"
+}, {
+    "id": "563",
+    "dateAdded": "2016-06-28T16:46:40.255Z",
+    "index": 169,
+    "parentId": "234",
+    "title": "tj/frontend-boilerplate: webpack-react-redux-babel-autoprefixer-hmr-postcss-css-modules-rucksack-boilerplate",
+    "url": "https://github.com/tj/frontend-boilerplate"
+}, {
+    "id": "605",
+    "dateAdded": "2016-07-21T17:51:41.313Z",
+    "index": 170,
+    "parentId": "234",
+    "title": "todomvc/examples/angularjs at gh-pages · tastejs/todomvc",
+    "url": "https://github.com/tastejs/todomvc/tree/gh-pages/examples/angularjs"
+}, {
+    "id": "363",
+    "dateAdded": "2016-02-29T19:23:29.145Z",
+    "index": 171,
+    "parentId": "234",
+    "title": "Trying to get data from a local json file. - Data Source - Kendo UI Forum",
+    "url": "http://www.telerik.com/forums/trying-to-get-data-from-a-local-json-file"
+}, {
+    "id": "353",
+    "dateAdded": "2016-02-23T21:13:01.007Z",
+    "index": 172,
+    "parentId": "234",
+    "title": "Tutorials | Scotch",
+    "url": "https://scotch.io/tutorials"
+}, {
+    "id": "315",
+    "dateAdded": "2016-01-13T19:53:11.385Z",
+    "index": 173,
+    "parentId": "234",
+    "title": "UglifyJS: Online JavaScript minifier",
+    "url": "https://skalman.github.io/UglifyJS-online/"
+}, {
+    "id": "338",
+    "dateAdded": "2016-02-05T21:21:47.981Z",
+    "index": 174,
+    "parentId": "234",
+    "title": "Ultimate CSS Gradient Generator - ColorZilla.com",
+    "url": "http://www.colorzilla.com/gradient-editor/"
+}, {
+    "id": "391",
+    "dateAdded": "2016-03-21T22:17:12.177Z",
+    "index": 175,
+    "parentId": "234",
+    "title": "Unicode support for U+2261 (≡) across browsers, screen readers and devices",
+    "url": "http://unicode.johnholtripley.co.uk/2261/"
+}, {
+    "id": "608",
+    "dateAdded": "2016-07-25T20:02:58.959Z",
+    "index": 176,
+    "parentId": "234",
+    "title": "update post meta - Front-end update_post_meta snippet displays white screen? - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/21503/front-end-update-post-meta-snippet-displays-white-screen"
+}, {
+    "id": "415",
+    "dateAdded": "2016-04-06T20:24:19.337Z",
+    "index": 177,
+    "parentId": "234",
+    "title": "Using CORS - HTML5 Rocks",
+    "url": "http://www.html5rocks.com/en/tutorials/cors/"
+}, {
+    "id": "474",
+    "dateAdded": "2016-05-16T16:41:01.670Z",
+    "index": 178,
+    "parentId": "234",
+    "title": "Virtual Machine (VM), Windows Virtual PC & BrowserStack",
+    "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/mac/"
+}, {
+    "id": "229",
+    "dateAdded": "2015-09-22T20:20:54.653Z",
+    "index": 179,
+    "parentId": "234",
+    "title": "Virtual Machines",
+    "url": "https://dev.modern.ie/tools/vms/mac/"
+}, {
+    "id": "306",
+    "dateAdded": "2016-01-04T18:50:50.502Z",
+    "index": 180,
+    "parentId": "234",
+    "title": "Web Fundamentals | Web Fundamentals - Google Developers",
+    "url": "https://developers.google.com/web/fundamentals/?hl=en"
+}, {
+    "id": "486",
+    "dateAdded": "2016-05-19T21:46:11.217Z",
+    "index": 181,
+    "parentId": "234",
+    "title": "Welcome - Jekyll • Simple, blog-aware, static sites",
+    "url": "https://jekyllrb.com/docs/home/"
+}, {
+    "id": "435",
+    "dateAdded": "2016-04-19T21:27:25.772Z",
+    "index": 182,
+    "parentId": "234",
+    "title": "Wordpress: Limit Archives to Single Category - David Nash",
+    "url": "http://davidnash.com.au/wordpress-limit-archives-to-single-category/"
+}, {
+    "id": "466",
+    "dateAdded": "2016-05-11T19:14:18.505Z",
+    "index": 183,
+    "parentId": "234",
+    "title": "wp_rss() | Function | WordPress Developer Resources",
+    "url": "https://developer.wordpress.org/reference/functions/wp_rss/"
+}, {
+    "id": "677",
+    "dateAdded": "2016-08-26T21:09:25.464Z",
+    "index": 184,
+    "parentId": "234",
+    "title": "Convert Comma Separated String into Array | CSS-Tricks",
+    "url": "https://css-tricks.com/snippets/php/convert-comma-separated-string-into-array/"
+}, {
+    "id": "680",
+    "dateAdded": "2016-08-29T16:01:27.218Z",
+    "index": 185,
+    "parentId": "234",
+    "title": "timarney/react-faq: A collection of links to help answer your questions about React.js",
+    "url": "https://github.com/timarney/react-faq"
+}, {
+    "id": "683",
+    "dateAdded": "2016-08-30T16:23:02.626Z",
+    "index": 186,
+    "parentId": "234",
+    "title": "How to comment in React JSX | Wes Bos",
+    "url": "http://wesbos.com/react-jsx-comments/"
+}, {
+    "id": "686",
+    "dateAdded": "2016-09-02T18:09:18.825Z",
+    "index": 187,
+    "parentId": "234",
+    "title": "ruby - ERROR: While executing gem ... (Errno::EPERM) Operation not permitted - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/32891965/error-while-executing-gem-errnoeperm-operation-not-permitted"
+}, {
+    "id": "687",
+    "dateAdded": "2016-09-02T18:26:20.327Z",
+    "index": 188,
+    "parentId": "234",
+    "title": "Writing posts - Jekyll • Simple, blog-aware, static sites",
+    "url": "https://jekyllrb.com/docs/posts/"
+}, {
+    "id": "689",
+    "dateAdded": "2016-09-02T18:27:57.899Z",
+    "index": 189,
+    "parentId": "234",
+    "title": "Jekyll Themes",
+    "url": "http://jekyllthemes.org/"
+}, {
+    "id": "690",
+    "dateAdded": "2016-09-02T18:32:00.992Z",
+    "index": 190,
+    "parentId": "234",
+    "title": "creative theme",
+    "url": "http://jekyllthemes.org/themes/creative-theme/"
+}, {
+    "id": "693",
+    "dateAdded": "2016-09-06T17:40:46.481Z",
+    "index": 191,
+    "parentId": "234",
+    "title": "Structured Data Testing Tool",
+    "url": "https://search.google.com/structured-data/testing-tool/u/0/"
+}, {
+    "id": "696",
+    "dateAdded": "2016-09-07T19:50:58.315Z",
+    "index": 192,
+    "parentId": "234",
+    "title": "Databases — WebFaction User Guide",
+    "url": "https://docs.webfaction.com/user-guide/databases.html"
+}, {
+    "id": "697",
+    "dateAdded": "2016-09-07T19:57:18.965Z",
+    "index": 193,
+    "parentId": "234",
+    "title": "Change WordPress URLs in mysql Database When Site is Moved to new Host",
+    "url": "https://wpbeaches.com/updating-wordpress-mysql-database-after-moving-to-a-new-url/"
+}, {
+    "id": "698",
+    "dateAdded": "2016-09-07T20:27:07.744Z",
+    "index": 194,
+    "parentId": "234",
+    "title": "Git 2.3 has been released",
+    "url": "https://github.com/blog/1957-git-2-3-has-been-released"
+}, {
+    "id": "701",
+    "dateAdded": "2016-09-09T15:34:46.404Z",
+    "index": 195,
+    "parentId": "234",
+    "title": "Online PHP Beautifier - BeautifyTools.com",
+    "url": "http://beautifytools.com/php-beautifier.php"
+}, {
+    "id": "702",
+    "dateAdded": "2016-09-09T16:01:00.097Z",
+    "index": 196,
+    "parentId": "234",
+    "title": "Instructions on how to change preinstalled Mac OS X PHP to MAMP's PHP Installation and then install Composer Package Management",
+    "url": "https://gist.github.com/irazasyed/5987693"
+}, {
+    "id": "706",
+    "dateAdded": "2016-09-13T16:02:49.873Z",
+    "index": 197,
+    "parentId": "234",
+    "title": "UNIX commands - Changing permissions – DreamHost",
+    "url": "https://help.dreamhost.com/hc/en-us/articles/214751018-UNIX-commands-Changing-permissions"
+}, {
+    "id": "707",
+    "dateAdded": "2016-09-13T17:07:46.530Z",
+    "index": 198,
+    "parentId": "234",
+    "title": "Changing File Permissions « WordPress Codex",
+    "url": "https://codex.wordpress.org/Changing_File_Permissions"
+}, {
+    "id": "708",
+    "dateAdded": "2016-09-14T17:58:33.104Z",
+    "index": 199,
+    "parentId": "234",
+    "title": "Favicon Generator for all platforms: iOS, Android, PC/Mac...",
+    "url": "http://realfavicongenerator.net/"
+}, {
+    "id": "709",
+    "dateAdded": "2016-09-14T21:39:43.129Z",
+    "index": 200,
+    "parentId": "234",
+    "title": "nginx: How To Set A Connection Limit For Search Engine Bots Gone Wild (Especially Bingbot)",
+    "url": "https://www.howtoforge.com/nginx-how-to-set-a-connection-limit-for-search-engine-bots-gone-wild-especially-bingbot"
+}, {
+    "id": "712",
+    "dateAdded": "2016-09-15T17:27:25.007Z",
+    "index": 201,
+    "parentId": "234",
+    "title": "POSTing JSON Data With PHP cURL | LornaJane",
+    "url": "http://lornajane.net/posts/2011/posting-json-data-with-php-curl"
+}, {
+    "id": "713",
+    "dateAdded": "2016-09-15T17:27:28.100Z",
+    "index": 202,
+    "parentId": "234",
+    "title": "php - Using cURL in a loop - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/16371239/using-curl-in-a-loop"
+}, {
+    "id": "716",
+    "dateAdded": "2016-09-19T17:21:44.716Z",
+    "index": 203,
+    "parentId": "234",
+    "title": "Convert command line cURL to PHP cURL - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/1939609/convert-command-line-curl-to-php-curl"
+}, {
+    "id": "717",
+    "dateAdded": "2016-09-19T17:21:47.325Z",
+    "index": 204,
+    "parentId": "234",
+    "title": "PHP: exec - Manual",
+    "url": "http://php.net/manual/en/function.exec.php"
+}, {
+    "id": "720",
+    "dateAdded": "2016-09-20T18:50:22.274Z",
+    "index": 205,
+    "parentId": "234",
+    "title": "How to use WordPress 3.5 Media Uploader in Theme Options - Codestag",
+    "url": "https://codestag.com/how-to-use-wordpress-3-5-media-uploader-in-theme-options/"
+}, {
+    "id": "723",
+    "dateAdded": "2016-09-22T17:02:20.560Z",
+    "index": 206,
+    "parentId": "234",
+    "title": "PHP: America - Manual",
+    "url": "http://php.net/manual/en/timezones.america.php"
+}, {
+    "id": "726",
+    "dateAdded": "2016-09-22T21:06:45.646Z",
+    "index": 207,
+    "parentId": "234",
+    "title": "How to Use Wireshark to Capture, Filter and Inspect Packets",
+    "url": "http://www.howtogeek.com/104278/how-to-use-wireshark-to-capture-filter-and-inspect-packets/"
+}, {
+    "id": "733",
+    "dateAdded": "2016-09-29T17:53:01.398Z",
+    "index": 208,
+    "parentId": "234",
+    "title": "Pretty print array php (Example)",
+    "url": "https://coderwall.com/p/ngnecw/pretty-print-array-php"
+}, {
+    "id": "734",
+    "dateAdded": "2016-09-29T18:56:51.061Z",
+    "index": 209,
+    "parentId": "234",
+    "title": "javascript - Loading local JSON file - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/7346563/loading-local-json-file"
+}, {
+    "id": "735",
+    "dateAdded": "2016-09-29T19:13:19.100Z",
+    "index": 210,
+    "parentId": "234",
+    "title": "How to update/edit .json file using php - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/17806224/how-to-update-edit-json-file-using-php"
+}, {
+    "id": "736",
+    "dateAdded": "2016-09-29T19:42:54.913Z",
+    "index": 211,
+    "parentId": "234",
+    "title": "Delete element from json with php - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/18213026/delete-element-from-json-with-php"
+}, {
+    "id": "745",
+    "dateAdded": "2016-10-03T22:01:07.765Z",
+    "index": 212,
+    "parentId": "234",
+    "title": "Index Aliases | Elasticsearch Reference [2.4] | Elastic",
+    "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-aliases.html"
+}, {
+    "id": "748",
+    "dateAdded": "2016-10-04T20:56:55.248Z",
+    "index": 213,
+    "parentId": "234",
+    "title": "Elasticsearch and Logstash notes",
+    "url": "https://writequit.org/org/es/"
+}, {
+    "id": "749",
+    "dateAdded": "2016-10-04T20:57:59.826Z",
+    "index": 214,
+    "parentId": "234",
+    "title": "CSS ::first-letter Selector",
+    "url": "http://www.w3schools.com/cssref/sel_firstletter.asp"
+}, {
+    "id": "751",
+    "dateAdded": "2016-10-05T16:53:04.141Z",
+    "index": 215,
+    "parentId": "234",
+    "title": "Introduction - vue.js",
+    "url": "http://vuejs.org/guide/"
+}, {
+    "id": "754",
+    "dateAdded": "2016-10-05T19:59:38.269Z",
+    "index": 216,
+    "parentId": "234",
+    "title": "elastic/elasticsearch-js: Official Elasticsearch client library for Node.js and the browser",
+    "url": "https://github.com/elastic/elasticsearch-js"
+}, {
+    "id": "757",
+    "dateAdded": "2016-10-11T15:39:25.239Z",
+    "index": 217,
+    "parentId": "234",
+    "title": "@supports will change your life | Charlotte Jackson, Front-end developer",
+    "url": "http://www.lottejackson.com/learning/supports-will-change-your-life"
+}, {
+    "id": "758",
+    "dateAdded": "2016-10-11T17:03:44.642Z",
+    "index": 218,
+    "parentId": "234",
+    "title": "How To Find Your Most Popular Content with Google Analytics",
+    "url": "https://vimm.com/finding-most-viewed-blog-post/"
+}, {
+    "id": "759",
+    "dateAdded": "2016-10-11T19:04:07.264Z",
+    "index": 219,
+    "parentId": "234",
+    "title": "Query Explorer — Google Analytics Demos & Tools",
+    "url": "https://ga-dev-tools.appspot.com/query-explorer/"
+}, {
+    "id": "760",
+    "dateAdded": "2016-10-11T19:50:06.369Z",
+    "index": 220,
+    "parentId": "234",
+    "title": "Samples  |  Analytics Reporting API V4  |  Google Developers",
+    "url": "https://developers.google.com/analytics/devguides/reporting/core/v4/samples"
+}, {
+    "id": "761",
+    "dateAdded": "2016-10-11T19:50:09.097Z",
+    "index": 221,
+    "parentId": "234",
+    "title": "Hello Analytics Reporting API V4; PHP quickstart for service accounts  |  Analytics Reporting API V4  |  Google Developers",
+    "url": "https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-php"
+}, {
+    "id": "762",
+    "dateAdded": "2016-10-11T19:50:11.418Z",
+    "index": 222,
+    "parentId": "234",
+    "title": "Hello Analytics API: PHP quickstart for service accounts  |  Analytics Management API  |  Google Developers",
+    "url": "https://developers.google.com/analytics/devguides/config/mgmt/v3/quickstart/service-php"
+}, {
+    "id": "763",
+    "dateAdded": "2016-10-12T17:46:39.871Z",
+    "index": 223,
+    "parentId": "234",
+    "title": "Installing the simulator - Download for Mac OS X - BlackBerry Developer",
+    "url": "http://developer.blackberry.com/develop/simulator/simulator_installing.html"
+}, {
+    "id": "766",
+    "dateAdded": "2016-10-13T17:38:30.200Z",
+    "index": 224,
+    "parentId": "234",
+    "title": "regex - PHP remove everything before last instance of a character - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/8382547/php-remove-everything-before-last-instance-of-a-character"
+}, {
+    "id": "767",
+    "dateAdded": "2016-10-13T17:56:33.541Z",
+    "index": 225,
+    "parentId": "234",
+    "title": "5 Ways to Synchronise WordPress Uploads Across Environments via @polevaultweb",
+    "url": "http://www.polevaultweb.com/2014/03/5-ways-synchronise-wordpress-uploads-across-environments/"
+}, {
+    "id": "770",
+    "dateAdded": "2016-10-14T18:09:19.959Z",
+    "index": 226,
+    "parentId": "234",
+    "title": "How do I check/uncheck a checkbox input or radio button? | jQuery Learning Center",
+    "url": "https://learn.jquery.com/using-jquery-core/faq/how-do-i-check-uncheck-a-checkbox-input-or-radio-button/"
+}, {
+    "id": "771",
+    "dateAdded": "2016-10-14T18:32:34.906Z",
+    "index": 227,
+    "parentId": "234",
+    "title": "wordpress - Nginx redirect 301 the entire content of the folder to a subdomain - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/34234008/nginx-redirect-301-the-entire-content-of-the-folder-to-a-subdomain"
+}, {
+    "id": "774",
+    "dateAdded": "2016-10-17T17:19:33.765Z",
+    "index": 228,
+    "parentId": "234",
+    "title": "Write and read php object in a text file? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/18681090/write-and-read-php-object-in-a-text-file"
+}, {
+    "id": "777",
+    "dateAdded": "2016-10-19T18:40:20.174Z",
+    "index": 229,
+    "parentId": "234",
+    "title": "You Might Not Need JavaScript",
+    "url": "http://youmightnotneedjs.com/"
+}, {
+    "id": "778",
+    "dateAdded": "2016-10-19T21:43:41.197Z",
+    "index": 230,
+    "parentId": "234",
+    "title": "How to Install and Use the Linux Bash Shell on Windows 10",
+    "url": "http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/"
+}, {
+    "id": "781",
+    "dateAdded": "2016-10-20T16:16:59.691Z",
+    "index": 231,
+    "parentId": "234",
+    "title": "Git - Stashing",
+    "url": "https://git-scm.com/book/en/v1/Git-Tools-Stashing"
+}, {
+    "id": "784",
+    "dateAdded": "2016-10-21T17:37:08.446Z",
+    "index": 232,
+    "parentId": "234",
+    "title": "bash - List all defined aliases in Terminal - Ask Different",
+    "url": "http://apple.stackexchange.com/questions/25352/list-all-defined-aliases-in-terminal"
+}, {
+    "id": "787",
+    "dateAdded": "2016-10-25T15:56:49.477Z",
+    "index": 233,
+    "parentId": "234",
+    "title": "What is the most accurate way to retrieve a user's correct IP address in PHP? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/1634782/what-is-the-most-accurate-way-to-retrieve-a-users-correct-ip-address-in-php"
+}, {
+    "id": "790",
+    "dateAdded": "2016-10-27T15:55:42.543Z",
+    "index": 234,
+    "parentId": "234",
+    "title": "How To Migrate a MySQL Database Between Two Servers | DigitalOcean",
+    "url": "https://www.digitalocean.com/community/tutorials/how-to-migrate-a-mysql-database-between-two-servers"
+}, {
+    "id": "791",
+    "dateAdded": "2016-10-27T15:56:36.262Z",
+    "index": 235,
+    "parentId": "234",
+    "title": "Moving a MySQL database between servers using a single SSH command | Marcus Povey",
+    "url": "https://www.marcus-povey.co.uk/2013/03/25/moving-a-mysql-database-between-servers-using-a-single-ssh-command/"
+}, {
+    "id": "794",
+    "dateAdded": "2016-10-28T18:11:05.016Z",
+    "index": 236,
+    "parentId": "234",
+    "title": "Full-Stack Redux Tutorial",
+    "url": "https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html"
+}, {
+    "id": "795",
+    "dateAdded": "2016-10-28T19:21:19.397Z",
+    "index": 237,
+    "parentId": "234",
+    "title": "PHP: array_combine - Manual",
+    "url": "http://php.net/manual/en/function.array-combine.php"
+}, {
+    "id": "796",
+    "dateAdded": "2016-10-28T19:24:59.298Z",
+    "index": 238,
+    "parentId": "234",
+    "title": "getting all values for a custom field key (cross-post) - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/9394/getting-all-values-for-a-custom-field-key-cross-post"
+}, {
+    "id": "799",
+    "dateAdded": "2016-10-31T15:57:14.706Z",
+    "index": 239,
+    "parentId": "234",
+    "title": "PHP: Get the key from an array in a foreach loop - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/10992005/php-get-the-key-from-an-array-in-a-foreach-loop"
+}, {
+    "id": "800",
+    "dateAdded": "2016-10-31T21:15:20.531Z",
+    "index": 240,
+    "parentId": "234",
+    "title": "How to Create a WordPress Database Table",
+    "url": "http://www.kylejlarson.com/blog/how-to-create-a-wordpress-database-table/"
+}, {
+    "id": "801",
+    "dateAdded": "2016-10-31T21:46:33.574Z",
+    "index": 241,
+    "parentId": "234",
+    "title": "Custom Database Tables: Creating the Table",
+    "url": "https://code.tutsplus.com/tutorials/custom-database-tables-creating-the-table--wp-28124"
+}, {
+    "id": "804",
+    "dateAdded": "2016-11-01T17:50:06.045Z",
+    "index": 242,
+    "parentId": "234",
+    "title": "Class Reference/wpdb « WordPress Codex",
+    "url": "https://codex.wordpress.org/Class_Reference/wpdb#REPLACE_row"
+}, {
+    "id": "805",
+    "dateAdded": "2016-11-01T17:50:37.787Z",
+    "index": 243,
+    "parentId": "234",
+    "title": "$wpdb->get_row() only returns a single row? - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/14239/wpdb-get-row-only-returns-a-single-row"
+}, {
+    "id": "806",
+    "dateAdded": "2016-11-01T17:50:41.421Z",
+    "index": 244,
+    "parentId": "234",
+    "title": "PHP Warning: Missing argument 2 for wpdb::prepare() – Make WordPress Core",
+    "url": "https://make.wordpress.org/core/2012/12/12/php-warning-missing-argument-2-for-wpdb-prepare/"
+}, {
+    "id": "807",
+    "dateAdded": "2016-11-01T17:50:44.922Z",
+    "index": 245,
+    "parentId": "234",
+    "title": "Class Reference/wpdb « WordPress Codex",
+    "url": "https://codex.wordpress.org/Class_Reference/wpdb#UPDATE_rows"
+}, {
+    "id": "808",
+    "dateAdded": "2016-11-01T20:34:43.051Z",
+    "index": 246,
+    "parentId": "234",
+    "title": "wpdb - WP Database Table to CSV file - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/212972/wp-database-table-to-csv-file"
+}, {
+    "id": "811",
+    "dateAdded": "2016-11-02T21:13:04.028Z",
+    "index": 247,
+    "parentId": "234",
+    "title": "php - Wordpress: Disable Tags only for Posts - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/22691823/wordpress-disable-tags-only-for-posts"
+}, {
+    "id": "814",
+    "dateAdded": "2016-11-03T21:46:37.698Z",
+    "index": 248,
+    "parentId": "234",
+    "title": "wp_schedule_single_event() | Function | WordPress Developer Resources",
+    "url": "https://developer.wordpress.org/reference/functions/wp_schedule_single_event/"
+}, {
+    "id": "817",
+    "dateAdded": "2016-11-04T17:27:41.850Z",
+    "index": 249,
+    "parentId": "234",
+    "title": "How to use PATCH verb with curl - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/16306624/how-to-use-patch-verb-with-curl"
+}, {
+    "id": "818",
+    "dateAdded": "2016-11-04T18:20:49.127Z",
+    "index": 250,
+    "parentId": "234",
+    "title": "Is there a quick way to view the wp-cron schedule - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/98032/is-there-a-quick-way-to-view-the-wp-cron-schedule"
+}, {
+    "id": "819",
+    "dateAdded": "2016-11-04T18:59:44.848Z",
+    "index": 251,
+    "parentId": "234",
+    "title": "How to FIX WordPress Posts Missed Schedule Problem | NARGA",
+    "url": "https://www.narga.net/how-to-fix-wordpress-posts-missed-schedule-problem/"
+}, {
+    "id": "820",
+    "dateAdded": "2016-11-04T19:51:29.104Z",
+    "index": 252,
+    "parentId": "234",
+    "title": "keyboard shortcuts - Exit vim more quickly - Unix & Linux Stack Exchange",
+    "url": "http://unix.stackexchange.com/questions/93144/exit-vim-more-quickly"
+}, {
+    "id": "821",
+    "dateAdded": "2016-11-04T19:51:37.245Z",
+    "index": 253,
+    "parentId": "234",
+    "title": "cron - What is the correct way to edit a crontab file? - Ask Ubuntu",
+    "url": "http://askubuntu.com/questions/609850/what-is-the-correct-way-to-edit-a-crontab-file"
+}, {
+    "id": "828",
+    "dateAdded": "2016-11-09T18:10:57.051Z",
+    "index": 254,
+    "parentId": "234",
+    "title": "Useful WordPress SQL Queries | Ben Marshall",
+    "url": "https://benmarshall.me/wordpress-sql-queries/#assign-author"
+}, {
+    "id": "829",
+    "dateAdded": "2016-11-09T19:29:05.993Z",
+    "index": 255,
+    "parentId": "234",
+    "title": "Mysql: Update table with Ignore duplicate entry - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/19516554/mysql-update-table-with-ignore-duplicate-entry"
+}, {
+    "id": "832",
+    "dateAdded": "2016-11-11T22:11:55.379Z",
+    "index": 256,
+    "parentId": "234",
+    "title": "How to update WordPress taxonomies(categories/tags)' count field after bulk import/delete - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/18669256/how-to-update-wordpress-taxonomiescategories-tags-count-field-after-bulk-impo"
+}, {
+    "id": "835",
+    "dateAdded": "2016-11-14T17:13:19.944Z",
+    "index": 257,
+    "parentId": "234",
+    "title": "MySQL :: MySQL Workbench Manual :: 3.3 MySQL Workbench Settings and Log Files",
+    "url": "http://dev.mysql.com/doc/workbench/en/wb-configuring-files.html"
+}, {
+    "id": "843",
+    "dateAdded": "2016-11-15T19:08:11.896Z",
+    "index": 258,
+    "parentId": "234",
+    "title": "plugin development - How can you check if you are in a particular page in the WP Admin section? For example how can I check if I am in the Users > Your Profile page? - WordPress Development Stack Exchange",
+    "url": "http://wordpress.stackexchange.com/questions/7278/how-can-you-check-if-you-are-in-a-particular-page-in-the-wp-admin-section-for-e"
+}, {
+    "id": "846",
+    "dateAdded": "2016-11-17T20:37:57.208Z",
+    "index": 259,
+    "parentId": "234",
+    "title": "Changing PHP memory limits | Drupal.org",
+    "url": "https://www.drupal.org/docs/7/managing-site-performance-and-scalability/changing-php-memory-limits"
+}, {
+    "id": "849",
+    "dateAdded": "2016-11-18T19:21:44.798Z",
+    "index": 260,
+    "parentId": "234",
+    "title": "How to extract a file extension in PHP? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/173868/how-to-extract-a-file-extension-in-php"
+}, {
+    "id": "852",
+    "dateAdded": "2016-11-21T17:48:18.886Z",
+    "index": 261,
+    "parentId": "234",
+    "title": "javascript - jQuery contains() with a variable syntax - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/2191419/jquery-contains-with-a-variable-syntax"
+}, {
+    "id": "855",
+    "dateAdded": "2016-11-22T00:52:46.915Z",
+    "index": 262,
+    "parentId": "234",
+    "title": "Special characters | symbols | alternate keys | HTML for symbols | CSS special symbols a:before",
+    "url": "http://www.umsiko.co.za/links/specchar.html"
+}, {
+    "id": "866",
+    "dateAdded": "2016-11-29T21:33:01.136Z",
+    "index": 263,
+    "parentId": "234",
+    "title": "osx - Using Ctrl-Tab to switch between tabs in Mac Terminal.app - Super User",
+    "url": "http://superuser.com/questions/26100/using-ctrl-tab-to-switch-between-tabs-in-mac-terminal-app"
+}, {
+    "id": "873",
+    "dateAdded": "2016-12-01T20:28:07.778Z",
+    "index": 264,
+    "parentId": "234",
+    "title": "UbuntuHak: Create Symbolic Links in Ubuntu",
+    "url": "http://ubuntuhak.blogspot.com/2013/04/symbolic-links-in-ubuntu.html"
+}, {
+    "id": "874",
+    "dateAdded": "2016-12-01T21:31:57.296Z",
+    "index": 265,
+    "parentId": "234",
+    "title": "[ubuntu] how to move files, sudo command",
+    "url": "https://ubuntuforums.org/showthread.php?t=1212857"
+}, {
+    "id": "877",
+    "dateAdded": "2016-12-06T17:37:41.725Z",
+    "index": 266,
+    "parentId": "234",
+    "title": "Google Hangouts",
+    "url": "https://hangouts.google.com/hangouts/_/digitalbureau.com/dev-standup?authuser=0"
+}, {
+    "id": "878",
+    "dateAdded": "2016-12-06T18:07:06.071Z",
+    "index": 267,
+    "parentId": "234",
+    "title": "How to check if string contains substring PHP",
+    "url": "http://www.maxi-pedia.com/string+contains+substring+php"
+}, {
+    "id": "881",
+    "dateAdded": "2016-12-07T19:01:33.320Z",
+    "index": 268,
+    "parentId": "234",
+    "title": "url - How can I get query string values in JavaScript? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript"
+}, {
+    "id": "887",
+    "dateAdded": "2016-12-12T18:31:23.464Z",
+    "index": 269,
+    "parentId": "234",
+    "title": "html - jquery - count li in each of multiple ul and return value - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/13498076/jquery-count-li-in-each-of-multiple-ul-and-return-value"
+}, {
+    "id": "893",
+    "dateAdded": "2016-12-14T23:04:47.009Z",
+    "index": 270,
+    "parentId": "234",
+    "title": "Javascript - object key->value - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/5000953/javascript-object-key-value"
+}, {
+    "id": "896",
+    "dateAdded": "2016-12-15T17:33:03.470Z",
+    "index": 271,
+    "parentId": "234",
+    "title": "css - Put icon inside input element in a form - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/917610/put-icon-inside-input-element-in-a-form"
+}, {
+    "id": "897",
+    "dateAdded": "2016-12-15T20:49:00.970Z",
+    "index": 272,
+    "parentId": "234",
+    "title": "Compare two dates with JavaScript - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/492994/compare-two-dates-with-javascript"
+}, {
+    "id": "903",
+    "dateAdded": "2016-12-21T17:13:45.673Z",
+    "index": 273,
+    "parentId": "234",
+    "title": "how to check for special characters php - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/3938021/how-to-check-for-special-characters-php"
+}, {
+    "id": "908",
+    "dateAdded": "2017-01-03T18:20:43.766Z",
+    "index": 274,
+    "parentId": "234",
+    "title": "Git: merge all changes from another branch as a single commit - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/3697178/git-merge-all-changes-from-another-branch-as-a-single-commit"
+}, {
+    "id": "915",
+    "dateAdded": "2017-01-09T19:49:23.824Z",
+    "index": 275,
+    "parentId": "234",
+    "title": "Online Markdown Editor - Dillinger, the Last Markdown Editor ever.",
+    "url": "http://dillinger.io/"
+}, {
+    "id": "922",
+    "dateAdded": "2017-01-11T19:16:13.498Z",
+    "index": 276,
+    "parentId": "234",
+    "title": "rebase - Squash the first two commits in Git? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/598672/squash-the-first-two-commits-in-git"
+}, {
+    "id": "926",
+    "dateAdded": "2017-01-12T20:35:08.430Z",
+    "index": 277,
+    "parentId": "234",
+    "title": "Learning the shell - Lesson 7: Permissions",
+    "url": "http://linuxcommand.org/lts0070.php"
+}, {
+    "id": "927",
+    "dateAdded": "2017-01-12T21:58:20.244Z",
+    "index": 278,
+    "parentId": "234",
+    "title": "CSS reset for minimalists · Matt Smith",
+    "url": "http://allthingssmitty.com/2017/01/09/css-reset-for-minimalists/"
+}, {
+    "id": "930",
+    "dateAdded": "2017-01-18T18:46:48.220Z",
+    "index": 279,
+    "parentId": "234",
+    "title": "Native WordPress Loading GIFs - Austin Passy",
+    "url": "https://austin.passy.co/2014/native-wordpress-loading-gifs/"
+}, {
+    "id": "947",
+    "dateAdded": "2017-01-31T22:21:42.830Z",
+    "index": 280,
+    "parentId": "234",
+    "title": "JSFuck - Write any JavaScript with 6 Characters: []()!+",
+    "url": "http://www.jsfuck.com/"
+}, {
+    "id": "956",
+    "dateAdded": "2017-02-06T16:39:52.994Z",
+    "index": 281,
+    "parentId": "234",
+    "title": "Front-end Developer Handbook 2017 · GitBook",
+    "url": "https://www.gitbook.com/book/frontendmasters/front-end-handbook-2017/details"
+}, {
+    "id": "967",
+    "dateAdded": "2017-02-10T17:45:45.039Z",
+    "index": 282,
+    "parentId": "234",
+    "title": "Installing Apache, PHP, and MySQL on Mac OS X El Capitan",
+    "url": "https://jason.pureconcepts.net/2015/10/install-apache-php-mysql-mac-os-x-el-capitan/"
+}, {
+    "id": "973",
+    "dateAdded": "2017-02-15T18:19:46.435Z",
+    "index": 283,
+    "parentId": "234",
+    "title": "Object.entries() - JavaScript | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries"
+}, {
+    "id": "987",
+    "dateAdded": "2017-02-27T17:09:33.900Z",
+    "index": 284,
+    "parentId": "234",
+    "title": "Get Query String Parameters with JavaScript",
+    "url": "https://davidwalsh.name/query-string-javascript"
+}, {
+    "id": "599",
+    "dateAdded": "2016-07-14T16:39:23.103Z",
+    "index": 285,
+    "parentId": "234",
+    "title": "Coding standards | Drupal.org",
+    "url": "https://www.drupal.org/coding-standards"
+}, {
+    "id": "596",
+    "dateAdded": "2016-07-13T18:11:59.944Z",
+    "index": 286,
+    "parentId": "234",
+    "title": "DNS Cache",
+    "url": "chrome://net-internals/#dns"
+}, {
+    "id": "732",
+    "dateAdded": "2016-09-29T16:19:14.095Z",
+    "index": 287,
+    "parentId": "234",
+    "title": "Free Virtual Machines from IE8 to MS Edge - Microsoft Edge Development",
+    "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
+}, {
+    "id": "992",
+    "dateAdded": "2017-03-08T19:50:24.989Z",
+    "index": 288,
+    "parentId": "234",
+    "title": "How do I count a JavaScript object's attributes? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/1345939/how-do-i-count-a-javascript-objects-attributes"
+}, {
+    "id": "993",
+    "dateAdded": "2017-03-08T19:50:32.860Z",
+    "index": 289,
+    "parentId": "234",
+    "title": "jquery - Combining JavaScript Objects into One - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/1334660/combining-javascript-objects-into-one"
+}, {
+    "id": "996",
+    "dateAdded": "2017-03-13T18:21:43.682Z",
+    "index": 290,
+    "parentId": "234",
+    "title": "React Native Debugger",
+    "url": "http://localhost:8081/debugger-ui"
+}, {
+    "id": "1001",
+    "dateAdded": "2017-03-16T21:21:54.025Z",
+    "index": 291,
+    "parentId": "234",
+    "title": "Keyboard Shortcuts - OSX — Sublime Text Unofficial Documentation",
+    "url": "http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html"
+}, {
+    "id": "1002",
+    "dateAdded": "2017-03-16T21:33:55.061Z",
+    "index": 292,
+    "parentId": "234",
+    "title": "Flexbox Cheatsheet",
+    "url": "http://yoksel.github.io/flex-cheatsheet/#display"
+}, {
+    "id": "1005",
+    "dateAdded": "2017-03-21T16:57:47.898Z",
+    "index": 293,
+    "parentId": "234",
+    "title": "php - error_log message is truncated when using print_r - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/25621252/error-log-message-is-truncated-when-using-print-r"
+}, {
+    "id": "1006",
+    "dateAdded": "2017-03-21T16:57:51.730Z",
+    "index": 294,
+    "parentId": "234",
+    "title": "php.ini: which one? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/10665783/php-ini-which-one"
+}, {
+    "id": "1015",
+    "dateAdded": "2017-04-10T21:59:53.460Z",
+    "index": 295,
+    "parentId": "234",
+    "title": "ColoradoDev",
+    "url": "https://coloradodev.com/"
+}, {
+    "id": "1016",
+    "dateAdded": "2017-04-10T21:59:59.099Z",
+    "index": 296,
+    "parentId": "234",
+    "title": "Andrew Hudson's Jobs List - Great Jobs Harvested Locally in Colorado",
+    "url": "https://andrewhudsonsjobslist.com/"
+}, {
+    "id": "1017",
+    "dateAdded": "2017-04-10T22:00:25.189Z",
+    "index": 297,
+    "parentId": "234",
+    "title": "Nonprofit Jobs | Colorado Nonprofit Association",
+    "url": "https://www.coloradononprofits.org/careers/nonprofit-jobs"
+}, {
+    "id": "1018",
+    "dateAdded": "2017-04-10T22:00:38.007Z",
+    "index": 298,
+    "parentId": "234",
+    "title": "j-delaney/easy-application: 400 software engineering companies that are easy to apply to",
+    "url": "https://github.com/j-delaney/easy-application"
+}, {
+    "id": "1025",
+    "dateAdded": "2017-04-21T16:47:31.726Z",
+    "index": 299,
+    "parentId": "234",
+    "title": "FREE Chmod Calculator - The PCman Website",
+    "url": "https://www.thepcmanwebsite.com/chmod_calculator.shtml"
+}, {
+    "id": "1033",
+    "dateAdded": "2017-05-16T16:38:50.155Z",
+    "index": 300,
+    "parentId": "234",
+    "title": "Custom dimensions & metrics - Analytics Help",
+    "url": "https://support.google.com/analytics/answer/2709828?hl=en#example-user"
+}, {
+    "id": "1036",
+    "dateAdded": "2017-05-17T20:58:57.105Z",
+    "index": 301,
+    "parentId": "234",
+    "title": "mysql - How do execute a .sql script from bash - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/7616520/how-do-execute-a-sql-script-from-bash"
+}, {
+    "id": "1037",
+    "dateAdded": "2017-05-17T20:59:00.577Z",
+    "index": 302,
+    "parentId": "234",
+    "title": "import sql file to mysql database terminal - Google Search",
+    "url": "https://www.google.com/search?q=import+sql+file+to+mysql+database+terminal&oq=import+sql+file+to+mysql+database+terminal&aqs=chrome..69i57j0l2.10053j0j4&sourceid=chrome&ie=UTF-8"
+}, {
+    "id": "1038",
+    "dateAdded": "2017-05-18T16:20:59.498Z",
+    "index": 303,
+    "parentId": "234",
+    "title": "ssh",
+    "url": "http://linuxcommand.org/man_pages/ssh1.html"
+}, {
+    "id": "1039",
+    "dateAdded": "2017-05-18T18:20:29.306Z",
+    "index": 304,
+    "parentId": "234",
+    "title": "Manually Disable WordPress Plugins – Tech Tips",
+    "url": "http://tech.ryanshow.us/wordpress-2/manually-disable-wordpress-plugins/"
+}, {
+    "id": "1040",
+    "dateAdded": "2017-05-18T18:36:33.896Z",
+    "index": 305,
+    "parentId": "234",
+    "title": "running php script (php function) in linux bash - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/5549562/running-php-script-php-function-in-linux-bash"
+}, {
+    "id": "1041",
+    "dateAdded": "2017-05-18T19:35:33.776Z",
+    "index": 306,
+    "parentId": "234",
+    "title": "plugin development - function deactivate_plugins does not exist - WordPress Development Stack Exchange",
+    "url": "https://wordpress.stackexchange.com/questions/18539/function-deactivate-plugins-does-not-exist"
+}, {
+    "id": "1044",
+    "dateAdded": "2017-05-22T20:44:39.360Z",
+    "index": 307,
+    "parentId": "234",
+    "title": "What to do if Spotify is running slow on your... | The Epitome of Profundity",
+    "url": "http://alexlitel.tumblr.com/post/53154780770/what-to-do-if-spotify-is-running-slow-on-your"
+}, {
+    "id": "1045",
+    "dateAdded": "2017-05-22T20:59:45.552Z",
+    "index": 308,
+    "parentId": "234",
+    "title": "Cracking WPA2 / WEP Wifi / Aircrack 10 seconds guide. For Mac OSX",
+    "url": "https://gist.github.com/victorreyesh/6532800"
+}, {
+    "id": "1046",
+    "dateAdded": "2017-05-22T21:16:53.238Z",
+    "index": 309,
+    "parentId": "234",
+    "title": "How to Hack Wi-Fi: Cracking WPA2-PSK Passwords Using Aircrack-Ng « Null Byte",
+    "url": "https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wpa2-psk-passwords-using-aircrack-ng-0148366/"
+}, {
+    "id": "1047",
+    "dateAdded": "2017-05-22T21:23:24.167Z",
+    "index": 310,
+    "parentId": "234",
+    "title": "Breaking WPA2-PSK with Kali Linux – Doctor Chaos",
+    "url": "http://www.drchaos.com/breaking-wpa2-psk-with-kali-linux/"
+}, {
+    "id": "1048",
+    "dateAdded": "2017-05-22T21:41:34.216Z",
+    "index": 311,
+    "parentId": "234",
+    "title": "Kali Linux Custom Image Downloads - Offensive Security",
+    "url": "https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/"
+}, {
+    "id": "1060",
+    "dateAdded": "2017-05-30T19:33:38.144Z",
+    "index": 312,
+    "parentId": "234",
+    "title": "O RLY Parody Book Generator for Slack",
+    "url": "https://dev.to/rly"
+}, {
+    "id": "1063",
+    "dateAdded": "2017-05-31T15:35:34.198Z",
+    "index": 313,
+    "parentId": "234",
+    "title": "Can I omit the else in an inline javascript if statement? - Stack Overflow",
+    "url": "https://stackoverflow.com/questions/9232907/can-i-omit-the-else-in-an-inline-javascript-if-statement"
+}, {
+    "id": "824",
+    "dateAdded": "2016-11-07T17:41:49.104Z",
+    "index": 0,
+    "parentId": "825",
+    "title": "api - marvel basic licence installation - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/36135815/marvel-basic-licence-installation"
+}, {
+    "id": "826",
+    "dateAdded": "2016-11-08T18:15:06.662Z",
+    "index": 1,
+    "parentId": "825",
+    "title": "multi_match Query | Elasticsearch: The Definitive Guide [2.x] | Elastic",
+    "url": "https://www.elastic.co/guide/en/elasticsearch/guide/current/multi-match-query.html"
+}, {
+    "id": "827",
+    "dateAdded": "2016-11-09T17:02:54.194Z",
+    "index": 2,
+    "parentId": "825",
+    "title": "Wordpress Cron Setup, \"Missed Schedule\" Error | DigitalOcean",
+    "url": "https://www.digitalocean.com/community/questions/wordpress-cron-setup-missed-schedule-error"
+}, {
+    "id": "753",
+    "dateAdded": "2016-10-05T19:59:27.825Z",
+    "index": 3,
+    "parentId": "825",
+    "title": "elastic/elasticsearch-php: Official PHP low-level client for Elasticsearch.",
+    "url": "https://github.com/elastic/elasticsearch-php"
+}, {
+    "id": "838",
+    "dateAdded": "2016-11-14T21:07:46.778Z",
+    "index": 4,
+    "parentId": "825",
+    "title": "jprante/elasticsearch-jdbc: JDBC importer for Elasticsearch",
+    "url": "https://github.com/jprante/elasticsearch-jdbc#quick-links"
+}, {
+    "id": "839",
+    "dateAdded": "2016-11-14T21:08:46.211Z",
+    "index": 5,
+    "parentId": "825",
+    "title": "ElasticSearch how to integrate with Mysql - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/36152152/elasticsearch-how-to-integrate-with-mysql"
+}, {
+    "id": "840",
+    "dateAdded": "2016-11-15T18:06:11.235Z",
+    "index": 6,
+    "parentId": "825",
+    "title": "mysql - Copy field data from one table to another where matching id fields - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/19955567/copy-field-data-from-one-table-to-another-where-matching-id-fields"
+}, {
+    "id": "841",
+    "dateAdded": "2016-11-15T18:06:17.323Z",
+    "index": 7,
+    "parentId": "825",
+    "title": "sql - How to add a column to a table from another table in Mysql? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/27376152/how-to-add-a-column-to-a-table-from-another-table-in-mysql"
+}, {
+    "id": "858",
+    "dateAdded": "2016-11-22T22:54:46.940Z",
+    "index": 8,
+    "parentId": "825",
+    "title": "INSERT INTO LOGSTASH SELECT DATA FROM DATABASE | Elastic",
+    "url": "https://www.elastic.co/blog/logstash-jdbc-input-plugin"
+}, {
+    "id": "859",
+    "dateAdded": "2016-11-23T18:50:08.222Z",
+    "index": 9,
+    "parentId": "825",
+    "title": "Working with plugins | Logstash Reference [5.0] | Elastic",
+    "url": "https://www.elastic.co/guide/en/logstash/current/working-with-plugins.html"
+}, {
+    "id": "860",
+    "dateAdded": "2016-11-23T18:50:11.948Z",
+    "index": 10,
+    "parentId": "825",
+    "title": "elasticsearch | Logstash Reference [5.0] | Elastic",
+    "url": "https://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html"
+}, {
+    "id": "861",
+    "dateAdded": "2016-11-23T18:50:14.855Z",
+    "index": 11,
+    "parentId": "825",
+    "title": "elasticsearch - logstash with elasticsearch_http - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/24368607/logstash-with-elasticsearch-http"
+}, {
+    "id": "862",
+    "dateAdded": "2016-11-23T18:50:18.985Z",
+    "index": 12,
+    "parentId": "825",
+    "title": "localhost:9200",
+    "url": "http://localhost:9200/"
+}, {
+    "id": "863",
+    "dateAdded": "2016-11-23T18:50:23.812Z",
+    "index": 13,
+    "parentId": "825",
+    "title": "Console - Kibana",
+    "url": "http://localhost:5601/app/kibana#/dev_tools/console?_g=()"
+}, {
+    "id": "867",
+    "dateAdded": "2016-11-29T22:03:54.943Z",
+    "index": 14,
+    "parentId": "825",
+    "title": "Sketch Cloud - Breaking_Views_Search",
+    "url": "https://sketch.cloud/s/zbRa"
+}, {
+    "id": "868",
+    "dateAdded": "2016-11-30T17:52:00.381Z",
+    "index": 15,
+    "parentId": "825",
+    "title": "ElasticSearch - sort search results by relevance and custom field (Date) - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/25975785/elasticsearch-sort-search-results-by-relevance-and-custom-field-date"
+}, {
+    "id": "869",
+    "dateAdded": "2016-11-30T18:34:36.548Z",
+    "index": 16,
+    "parentId": "825",
+    "title": "Kibana-Prod",
+    "url": "http://ec2-54-237-247-61.compute-1.amazonaws.com:5601/app/kibana#/management/kibana/index/?_g=()"
+}, {
+    "id": "872",
+    "dateAdded": "2016-12-01T18:44:57.890Z",
+    "index": 17,
+    "parentId": "825",
+    "title": "Clean up your Elasticsearch query logic with search templates | ECM Architect",
+    "url": "http://ecmarchitect.com/archives/2016/01/19/4073"
+}, {
+    "id": "884",
+    "dateAdded": "2016-12-08T23:49:42.734Z",
+    "index": 18,
+    "parentId": "825",
+    "title": "Running as a Service on Linux | Elasticsearch Reference [2.1] | Elastic",
+    "url": "https://www.elastic.co/guide/en/elasticsearch/reference/2.1/setup-service.html"
+}, {
+    "id": "890",
+    "dateAdded": "2016-12-13T22:28:08.623Z",
+    "index": 19,
+    "parentId": "825",
+    "title": "How to make query_string search exact phrase in ElasticSearch - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/22093334/how-to-make-query-string-search-exact-phrase-in-elasticsearch"
+}, {
+    "id": "900",
+    "dateAdded": "2016-12-19T19:00:43.786Z",
+    "index": 20,
+    "parentId": "825",
+    "title": "Index.max_result_window increase limit- not updating? - Kibana - Discuss the Elastic Stack",
+    "url": "https://discuss.elastic.co/t/index-max-result-window-increase-limit-not-updating/47692"
+}, {
+    "id": "1051",
+    "dateAdded": "2017-05-24T17:34:27.848Z",
+    "index": 21,
+    "parentId": "825",
+    "title": "Get all documents in percolator · Issue #178 · elastic/elasticsearch-php",
+    "url": "https://github.com/elastic/elasticsearch-php/issues/178"
+}, {
+    "id": "911",
+    "dateAdded": "2017-01-05T20:01:04.164Z",
+    "index": 1,
+    "parentId": "907",
+    "title": "React-Native iOS App Build Failure - Print: Entry, \":CFBundleIdentifier\", Does Not Exist - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/38811292/react-native-ios-app-build-failure-print-entry-cfbundleidentifier-does-n"
+}, {
+    "id": "912",
+    "dateAdded": "2017-01-05T21:04:40.485Z",
+    "index": 2,
+    "parentId": "907",
+    "title": "Unrecognized font family only with react-native run-ios · Issue #135 · oblador/react-native-vector-icons · GitHub",
+    "url": "https://github.com/oblador/react-native-vector-icons/issues/135"
+}, {
+    "id": "918",
+    "dateAdded": "2017-01-10T22:25:41.266Z",
+    "index": 3,
+    "parentId": "907",
+    "title": "TiCons - Generate all icon & splash screens for your Titanium app from just 2 or 3 files!",
+    "url": "http://ticons.fokkezb.nl/#result"
+}, {
+    "id": "919",
+    "dateAdded": "2017-01-10T22:58:03.157Z",
+    "index": 4,
+    "parentId": "907",
+    "title": "xcode - iOS Launch screen in React Native - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/34027270/ios-launch-screen-in-react-native"
+}, {
+    "id": "933",
+    "dateAdded": "2017-01-20T19:04:09.252Z",
+    "index": 5,
+    "parentId": "907",
+    "title": "React Native Initial Loading View – Voo Blog – Medium",
+    "url": "https://medium.com/rendez-voo/react-native-initial-loading-view-e58f919fa31f#.t87s8e5ql"
+}, {
+    "id": "936",
+    "dateAdded": "2017-01-23T17:02:41.417Z",
+    "index": 6,
+    "parentId": "907",
+    "title": "'RCTBridgeModule.h' file not found · Issue #5 · mehcode/rn-splash-screen · GitHub",
+    "url": "https://github.com/mehcode/rn-splash-screen/issues/5"
+}, {
+    "id": "937",
+    "dateAdded": "2017-01-23T17:07:14.228Z",
+    "index": 7,
+    "parentId": "907",
+    "title": "GitHub - crazycodeboy/react-native-splash-screen: A splash screen for react-native, hide when application loaded ,it works on iOS and Android.",
+    "url": "https://github.com/crazycodeboy/react-native-splash-screen"
+}, {
+    "id": "938",
+    "dateAdded": "2017-01-24T19:42:00.188Z",
+    "index": 8,
+    "parentId": "907",
+    "title": "Redux in Plain English: A Workflow | Quick Left",
+    "url": "https://quickleft.com/blog/redux-plain-english-workflow/"
+}, {
+    "id": "941",
+    "dateAdded": "2017-01-27T20:13:02.721Z",
+    "index": 9,
+    "parentId": "907",
+    "title": "GitHub - cuzzo/react-complete-me: React autocompletion powered by ElasticSearch. So easy your mom can do it.",
+    "url": "https://github.com/cuzzo/react-complete-me"
+}, {
+    "id": "946",
+    "dateAdded": "2017-01-31T20:12:25.000Z",
+    "index": 10,
+    "parentId": "907",
+    "title": "reactjs - What is mapDispatchToProps? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/39419237/what-is-mapdispatchtoprops"
+}, {
+    "id": "950",
+    "dateAdded": "2017-02-01T22:15:57.395Z",
+    "index": 11,
+    "parentId": "907",
+    "title": "reactjs - How to make AJAX request in redux - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/33891669/how-to-make-ajax-request-in-redux"
+}, {
+    "id": "953",
+    "dateAdded": "2017-02-02T22:51:34.659Z",
+    "index": 12,
+    "parentId": "907",
+    "title": "bvappdebug screen",
+    "url": "http://localhost:8081/index.ios.bundle?platform=ios&dev=true"
+}, {
+    "id": "957",
+    "dateAdded": "2017-02-06T19:02:49.841Z",
+    "index": 13,
+    "parentId": "907",
+    "title": "A Dummy’s Guide to Redux and Thunk in React – Medium",
+    "url": "https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3#.hnoa35j40"
+}, {
+    "id": "960",
+    "dateAdded": "2017-02-08T18:03:35.509Z",
+    "index": 14,
+    "parentId": "907",
+    "title": "React Native Express",
+    "url": "http://www.reactnativeexpress.com/"
+}, {
+    "id": "963",
+    "dateAdded": "2017-02-09T21:57:24.841Z",
+    "index": 15,
+    "parentId": "907",
+    "title": "react-redux/api.md at master · reactjs/react-redux · GitHub",
+    "url": "https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options"
+}, {
+    "id": "964",
+    "dateAdded": "2017-02-09T21:57:27.950Z",
+    "index": 16,
+    "parentId": "907",
+    "title": "javascript - 'dispatch' is not a function when argument to mapToDispatchToProps() in Redux - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/35443167/dispatch-is-not-a-function-when-argument-to-maptodispatchtoprops-in-redux"
+}, {
+    "id": "970",
+    "dateAdded": "2017-02-14T22:22:28.277Z",
+    "index": 17,
+    "parentId": "907",
+    "title": "Dinosaur.js Call for Proposals",
+    "url": "http://speak.dinosaurjs.org/events/2017"
+}, {
+    "id": "976",
+    "dateAdded": "2017-02-15T22:44:03.179Z",
+    "index": 18,
+    "parentId": "907",
+    "title": "xgfe/react-native-datepicker: react native datePicker component for both Android and IOS, useing DatePikcerAndroid, TimePickerAndroid and DatePickerIOS",
+    "url": "https://github.com/xgfe/react-native-datepicker"
+}, {
+    "id": "979",
+    "dateAdded": "2017-02-17T16:53:46.097Z",
+    "index": 19,
+    "parentId": "907",
+    "title": "lwansbrough/react-native-google-analytics: Google Analytics for React Native! Compatible with react-native-ab",
+    "url": "https://github.com/lwansbrough/react-native-google-analytics"
+}, {
+    "id": "982",
+    "dateAdded": "2017-02-21T18:53:25.967Z",
+    "index": 20,
+    "parentId": "907",
+    "title": "vhpoet/react-native-styling-cheat-sheet: Most of the React Native styling material in one page",
+    "url": "https://github.com/vhpoet/react-native-styling-cheat-sheet#text"
+}, {
+    "id": "983",
+    "dateAdded": "2017-02-21T23:15:46.929Z",
+    "index": 21,
+    "parentId": "907",
+    "title": "react-native-modal-dropdown/index.js at master · sohobloo/react-native-modal-dropdown",
+    "url": "https://github.com/sohobloo/react-native-modal-dropdown/blob/master/example/index.js"
+}, {
+    "id": "984",
+    "dateAdded": "2017-02-21T23:29:00.028Z",
+    "index": 22,
+    "parentId": "907",
+    "title": "ArnaudRinquin/react-native-radio-buttons: A Radio-button like logic wrapper for React Native",
+    "url": "https://github.com/ArnaudRinquin/react-native-radio-buttons"
+}, {
+    "id": "989",
+    "dateAdded": "2017-02-27T22:35:49.830Z",
+    "index": 23,
+    "parentId": "907",
+    "title": "React Native: How to disable scrolling in ListView? - Stack Overflow",
+    "url": "http://stackoverflow.com/questions/30644581/react-native-how-to-disable-scrolling-in-listview"
+}, {
+    "id": "1009",
+    "dateAdded": "2017-03-23T17:32:52.361Z",
+    "index": 26,
+    "parentId": "907",
+    "title": "Using the new elasticsearch 5 percolator - Luminis Amsterdam : Luminis Amsterdam",
+    "url": "https://amsterdam.luminis.eu/2016/10/13/using-the-new-elasticsearch-5-percolator/"
+}, {
+    "id": "1012",
+    "dateAdded": "2017-03-29T15:31:34.684Z",
+    "index": 27,
+    "parentId": "907",
+    "title": "Google Hangouts",
+    "url": "https://hangouts.google.com/hangouts/_/digitalbureau.com/db-scrum?authuser=0"
+}, {
+    "id": "1029",
+    "dateAdded": "2017-05-09T19:19:00.806Z",
+    "index": 28,
+    "parentId": "907",
+    "title": "Add Analytics to Your iOS App  |  Analytics for iOS  |  Google Developers",
+    "url": "https://developers.google.com/analytics/devguides/collection/ios/v3/?configured=true"
+},{
+    "id": "1055",
+    "dateAdded": "2017-05-25T18:17:39.479Z",
+    "index": 11,
+    "parentId": "1",
+    "title": "jekyll"
+}, {
+    "id": "1054",
+    "dateAdded": "2017-05-25T18:17:29.169Z",
+    "index": 0,
+    "parentId": "1055",
+    "title": "jekyll/jekyll-admin: A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites.",
+    "url": "https://github.com/jekyll/jekyll-admin"
+}, {
+    "id": "10",
+    "dateAdded": "2014-03-11T18:21:46.288Z",
+    "index": 1,
+    "parentId": "2",
+    "title": "The Ultimate Cheat Sheet to Social Media Image Sizes | Author Media",
+    "url": "http://www.authormedia.com/the-ultimate-cheat-sheet-to-social-media-image-sizes/"
+}]
