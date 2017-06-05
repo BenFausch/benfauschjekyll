@@ -964,6 +964,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 
+		br{
+			line-height:3em;
+		}
 		.image {
 			@include vendor('order', '1');
 			border-radius: 0;
@@ -984,8 +987,8 @@ $baseurl: '{{ site.baseurl }}/images';
 		.content {
 			@include padding(2em, 4em);
 			@include vendor('order', '2');
-			max-width: 48em;
-			width: 60%;
+			max-width: 64em;
+			width: 70%;
 		}
 
 		&:nth-child(2n) {
