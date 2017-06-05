@@ -19,7 +19,7 @@ function getMeta() {
         jdDescription = '';
         if (jdUrl) {
             var url = encodeURIComponent(jdUrl);
-            fetch('https://opengraph.io/api/1.0/site/' + url + '?app_id=5934ae0ea6d559f93f3effe2', myInit).then((resp) => resp.json()).then(function(data) {
+            fetch('https://opengraph.io/api/1.0/site/' + url + '?app_id=5935ae0ea6d559f93f3effe2', myInit).then((resp) => resp.json()).then(function(data) {
                 // console.log(data)
                 jdImg = data.hybridGraph.image;
                 jdDescription = data.hybridGraph.description;
