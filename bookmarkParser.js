@@ -46,7 +46,6 @@ function fetchMeta(url, jdTitle, jdUrl) {
         jdDescription = jdDescription.replace(/"/g, '\\"');
         container = container + '{"title": "' + jdTitle + '","url": "' + jdUrl + '","image": "' + jdImg + '","description": "' + jdDescription + '"},';
         console.log(i)
-        container = container + ' {"title": "' + jdTitle + '","url": "' + jdUrl + '"},';
     })
 }
 
