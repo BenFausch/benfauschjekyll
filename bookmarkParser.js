@@ -1,4 +1,7 @@
-container = 'var bookmarkData = [';
+// container = 'var bookmarkData = [';
+
+container = "---\n title: Test Landing\n layout: default\n---\n<ul>";
+
 var i = 0;
 var json_length = Object.keys(json_data).length;
 console.log(json_length)
@@ -44,7 +47,15 @@ function fetchMeta(url, jdTitle, jdUrl) {
         jdDescription = data.hybridGraph.description;
         jdImg = jdImg.replace(/"/g, '\\"');
         jdDescription = jdDescription.replace(/"/g, '\\"');
-        container = container + '{"title": "' + jdTitle + '","url": "' + jdUrl + '","image": "' + jdImg + '","description": "' + jdDescription + '"},';
+        jdDescription = jdDescription.replace(/\s+/g, " ");
+
+        // container = container + '{"title": "' + jdTitle + '","url": "' + jdUrl + '","image": "' + jdImg + '","description": "' + jdDescription + '"},';
+
+        if((jdImg!=='undefined')&&(jdImg.length>0)){
+        container =  container + '<li><a href="'+jdUrl+'" target="_blank">'+jdTitle+'</a><img src="'+jdImg+'" width="100"><p>'+jdDescription+'</p></li>';
+        }else{
+            container =  container + '<li><a href="'+jdUrl+'" target="_blank">'+jdTitle+'</a><p>'+jdDescription+'</p></li>';
+        }
         console.log(i)
     })
 }
@@ -52,13 +63,14 @@ function fetchMeta(url, jdTitle, jdUrl) {
 function waitMeta(container) {
     console.log('METAMETAMETAMETAMETA')
     //create downloadble file
-    container = container.replace(/\s+/g, " ");
-    container = container + '];'
+    // container = container.replace(/\s+/g, " ");
+    // container = container + '];'
     var textFileAsBlob = new Blob([container], {
         type: 'text/plain'
     });
     var downloadLink = document.createElement("a");
-    downloadLink.download = 'bookmarks.json';
+    // downloadLink.download = 'bookmarks.json';
+    downloadLink.download = 'bookmarks.md';
     downloadLink.innerHTML = "Download File";
     downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
     document.getElementById('container').appendChild(downloadLink)
