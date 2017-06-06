@@ -214,8 +214,15 @@ $baseurl: '{{ site.baseurl }}/images';
 	section, article {
 		&.special {
 			text-align: center;
+			&.toolkit{
+				margin-bottom: 2em;
+				h1{
+					font-size:2em
+				}
+			}
 		}
 	}
+
 
 	header {
 		p {
@@ -305,8 +312,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&:focus {
-			box-shadow: 0 0 0 2px _palette(accent1, bg);
+			// box-shadow: 0 0 0 2px _palette(accent1, bg);
 		}
+	}
+
+	input[type="text"]{
+		width:90%;
+		margin:5%;
 	}
 
 	.select-wrapper {
@@ -1828,14 +1840,14 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Toolkit */
 #linkList{
 		list-style:none;
-		padding:1em 2em;
+		padding:1em 8em;
 		li{
 			background:rgba(0,0,0,0.5);
 			border-radius:10px;
 			border:2px solid white;
-			margin-bottom:20px;
+			margin-bottom:2em;
 			overflow:hidden;
-			padding:10px;
+			padding:20px;
 			width:100%;
 			a{
 				font-size: 1.6em;

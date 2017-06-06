@@ -1230,6 +1230,10 @@ pre {
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
+  section.special.toolkit, article.special.toolkit {
+    margin-bottom: 2em; }
+    section.special.toolkit h1, article.special.toolkit h1 {
+      font-size: 2em; }
 
 header p {
   color: rgba(255, 255, 255, 0.5);
@@ -1297,12 +1301,10 @@ textarea {
   select:invalid,
   textarea:invalid {
     box-shadow: none; }
-  input[type="text"]:focus,
-  input[type="password"]:focus,
-  input[type="email"]:focus,
-  select:focus,
-  textarea:focus {
-    box-shadow: 0 0 0 2px #9B0B27; }
+
+input[type="text"] {
+  width: 90%;
+  margin: 5%; }
 
 .select-wrapper {
   text-decoration: none;
@@ -2678,14 +2680,14 @@ body.is-mobile #main > header {
 /* Toolkit */
 #linkList {
   list-style: none;
-  padding: 1em 2em; }
+  padding: 1em 8em; }
   #linkList li {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     border: 2px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
     overflow: hidden;
-    padding: 10px;
+    padding: 20px;
     width: 100%; }
     #linkList li a {
       font-size: 1.6em;
