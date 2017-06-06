@@ -1,14 +1,10 @@
-// container = 'var bookmarkData = [';
-
+//start container
 container = "---\n title: Test Landing\n layout: default\n---\n<ul>";
 
 var i = 0;
 var json_length = Object.keys(json_data).length;
-console.log(json_length)
 
-function getMeta(container) {
-    console.log(json_data);
-    
+function getMeta(container) {   
     //fetch metadata
     for (jd in json_data) {
         console.log(json_data[jd]['url'])
@@ -22,7 +18,7 @@ function getMeta(container) {
             jdTitle = jdTitle.replace(/"/g, '\\"');
             jdTime = jdTime.replace(/"/g, '\\"');
             var url = encodeURIComponent(jdUrl);
-            fetchMeta(url, jdTitle, jdUrl, i);
+                fetchMeta(url, jdTitle, jdUrl, i);
         }else{
             i++
         }
@@ -38,7 +34,7 @@ function fetchMeta(url, jdTitle, jdUrl) {
         cache: 'default'
     };
     fetch('https://opengraph.io/api/1.0/site/' + url + '?app_id=5935ae0ea6d549f93f3effe2', myInit).then((resp) => resp.json()).then(function(data) {
-        // console.log(data)
+
         i++;
         if (i === (json_length)) {
             waitMeta(container)
@@ -49,22 +45,17 @@ function fetchMeta(url, jdTitle, jdUrl) {
         jdDescription = jdDescription.replace(/"/g, '\\"');
         jdDescription = jdDescription.replace(/\s+/g, " ");
 
-        // container = container + '{"title": "' + jdTitle + '","url": "' + jdUrl + '","image": "' + jdImg + '","description": "' + jdDescription + '"},';
-
         if((jdImg!=='undefined')&&(jdImg.length>0)){
         container =  container + '<li><a href="'+jdUrl+'" target="_blank">'+jdTitle+'</a><img src="'+jdImg+'" width="100"><p>'+jdDescription+'</p></li>';
         }else{
             container =  container + '<li><a href="'+jdUrl+'" target="_blank">'+jdTitle+'</a><p>'+jdDescription+'</p></li>';
         }
-        console.log(i)
     })
 }
 
 function waitMeta(container) {
-    console.log('METAMETAMETAMETAMETA')
-    //create downloadble file
-    // container = container.replace(/\s+/g, " ");
-    // container = container + '];'
+    //create downloadable file
+    
     var textFileAsBlob = new Blob([container], {
         type: 'text/plain'
     });
@@ -76,4 +67,3 @@ function waitMeta(container) {
     document.getElementById('container').appendChild(downloadLink)
 }
 getMeta(container);
-// window.onload = waitMeta();
