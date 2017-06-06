@@ -1,30 +1,4 @@
 var json_data = [{
-    "id": "1021",
-    "dateAdded": "2017-04-14T20:53:16.295Z",
-    "index": 0,
-    "parentId": "234",
-    "title": "Static Sites"
-}, {
-    "id": "1022",
-    "dateAdded": "2017-04-14T20:53:18.013Z",
-    "index": 0,
-    "parentId": "1021",
-    "title": "Jekyll Admin",
-    "url": "https://jekyll.github.io/jekyll-admin/"
-}, {
-    "id": "688",
-    "dateAdded": "2016-09-02T18:26:46.300Z",
-    "index": 1,
-    "parentId": "1021",
-    "title": "Jekyll • Simple, blog-aware, static sites - Transform your plain text into static websites and blogs",
-    "url": "https://jekyllrb.com/"
-}, {
-    "id": "276",
-    "dateAdded": "2015-12-03T22:16:35.754Z",
-    "index": 1,
-    "parentId": "234",
-    "title": "git"
-}, {
     "id": "247",
     "dateAdded": "2015-11-03T20:11:09.842Z",
     "index": 0,
