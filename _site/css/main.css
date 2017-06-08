@@ -1303,8 +1303,14 @@ textarea {
     box-shadow: none; }
 
 input[type="text"] {
-  width: 90%;
-  margin: 5%; }
+  width: 50%;
+  margin: 0 auto 1% auto; }
+  @media screen and (max-width: 980px) {
+    input[type="text"] {
+      width: 80%; } }
+  @media screen and (max-width: 736px) {
+    input[type="text"] {
+      width: 90%; } }
 
 .select-wrapper {
   text-decoration: none;
@@ -2681,26 +2687,36 @@ body.is-mobile #main > header {
 #linkList {
   list-style: none;
   padding: 1em 8em; }
+  @media screen and (max-width: 980px) {
+    #linkList {
+      padding: 1em 0; } }
   #linkList li {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     border: 2px solid white;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
     padding: 20px;
-    width: 100%; }
+    width: 60%; }
+    @media screen and (max-width: 1280px) {
+      #linkList li {
+        width: 80%; } }
+    @media screen and (max-width: 736px) {
+      #linkList li {
+        width: 90%; } }
     #linkList li a {
       font-size: 1.6em;
-      line-height: 1.3em;
-      display: inline-block;
-      width: 80%; }
+      line-height: 1.5em;
+      display: inline-block; }
     #linkList li img {
       float: right;
       box-sizing: content-box;
       padding: 10px; }
     #linkList li p {
       font-size: .8em;
-      margin-top: 10px;
+      margin-top: 20px;
       width: 80%; }
 
 /* Landing */
@@ -2730,3 +2746,115 @@ body.is-mobile.landing .wrapper.style4 {
   background-size: cover; }
 body.is-mobile.landing #footer {
   background-color: #050a0e; }
+
+/* Contact */
+#contact {
+  list-style: none;
+  width: 100; }
+  #contact li {
+    display: block;
+    text-align: center; }
+    #contact li a {
+      color: #E7418A;
+      font-family: "Press Start 2P", cursive !important;
+      font-size: 2em;
+      line-height: 1.5em; }
+      #contact li a:hover {
+        -webkit-animation: rainbow 1s infinite;
+        -ms-animation: rainbow 1s infinite;
+        -o-animation: rainbow 1s infinite;
+        animation: rainbow 1s infinite; }
+
+/*Rainbow animation*/
+@-webkit-keyframes rainbow {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }
+@-ms-keyframes rainbow {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }
+@-o-keyframes rainbow {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }
+@keyframes rainbow {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }

@@ -7,6 +7,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 Jekyll build mod
 -->
 <html>
+
   <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,65 +21,220 @@ Jekyll build mod
   <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Ben Fausch" href="http://localhost:4000/feed.xml">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
-  <body>
+
+  <body class="landing">
+
     <!-- Page Wrapper -->
     <div id="page-wrapper">
-    <section class="wrapper style1 special toolkit">
-    <h1>My toolkit</h1>
-    <p>In this page, you will find a large assortment of bookmarks I have collected. Feel free to search and enjoy!</p>
-    </section>
-      <input type="text" id="searchTools" onkeyup="searchBookmarks()" placeholder="Search for something">
+
       <!-- Header -->
 <header id="header">
   <h1><a href="/index.html">Ben Fausch</a></h1>
   <nav id="nav">
     <ul>
       <li class="special">
+        
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
+        <img src="/images/profile.gif" width="150">
           <ul>
             <li><a href="index.html">Home</a></li>
-            
-            
-            <li><a href="/bookmarks.html">My Toolkit</a></li>
-            
-            
-            
-            <li><a href="/elements.html">Elements</a></li>
-            
-            
-            
-            
-            
-            <li><a href="/generic.html">Generic</a></li>
-            
-            
-            
-            
-            
-            
-            
-            <li><a href="/">Hola Muchacho!</a></li>
-            
-            
-            
-            
-            
+            <li><a href="/bookmarks">Toolkit</a></li>
+            <li><a href="/contact">Contact Me</a></li>
           </ul>
+
         </div>
       </li>
     </ul>
   </nav>
 </header>
 
+      
+
       <article id="main">
 
   <header>
-    <h2>Elements</h2>
-    <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+    
+    <!-- Edit the text with whatever you want :) --> 
+<!-- Works with emojis too ! -->
+<style>
+#main > header{
+	padding:0em!important;
+	padding-top:2em!important;
+}
+.wrapper{
+	padding: 1em!important;
+}
+		canvas{
+			/*background: black;*/
+			width: 69.9vw;
+			height: 30vw;
+			/*margin-top:-200px;*/
+			margin-left:auto;
+			margin-right:auto;
+		}
+		input{
+			width: 250px;
+			height: 100px;
+			line-height: 40px;
+			position: absolute;
+			bottom: 35px;
+			left: calc(50% - 125px);
+			background: none;
+			color: white;
+			visibility:hidden;
+			font-size: 200px;
+			font-family: helvetica;
+			text-align: center;
+			border: 1px solid white;
+			background: rgba(255,255,255,0.2);
+		}
+
+</style>
+<canvas id="scene"></canvas>
+	<input id="copy" type="text" value="contact me" />
+<script>
+
+	var canvas = document.querySelector("#scene"),
+		ctx = canvas.getContext("2d"),
+		particles = [],
+		amount = 10,
+		mouse = {x:0,y:0},
+		radius = 1;
+
+	var colors = ["#fff", "#0849B7","#0849B7","#37BF00", "#E43434"];
+
+	var copy = document.querySelector("#copy");
+
+	var ww = canvas.width = window.innerWidth;
+	var wh = canvas.height = window.innerHeight;
+
+	function Particle(x,y){
+		this.x =  Math.random()*ww;
+		this.y =  Math.random()*wh;
+		this.dest = {
+			x : x,
+			y: y
+		};
+		this.r =  Math.random()*1 + 2;
+		this.vx = (Math.random()-0.5)*1;
+		this.vy = (Math.random()-0.5)*1;
+		this.accX = 0;
+		this.accY = 0;
+		this.friction = Math.random()*0.01 + 0.96;
+
+		this.color = colors[Math.floor(Math.random()*6)];
+	}
+
+	Particle.prototype.render = function() {
+
+
+		this.accX = (this.dest.x - this.x)/1000;
+		this.accY = (this.dest.y - this.y)/1000;
+		this.vx += this.accX;
+		this.vy += this.accY;
+		this.vx *= this.friction;
+		this.vy *= this.friction;
+
+		this.x += this.vx;
+		this.y +=  this.vy;
+
+		ctx.fillStyle = this.color;
+		ctx.beginPath();
+		ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
+		ctx.fill();
+
+		var a = this.x - mouse.x;
+		var b = this.y - mouse.y;
+
+		var distance = Math.sqrt( a*a + b*b );
+		if(distance<(radius*150)){
+			this.accX = (this.x - mouse.x)/150;
+			this.accY = (this.y - mouse.y)/150;
+			this.vx += this.accX;
+			this.vy += this.accY;
+		}
+
+	}
+
+	function onMouseMove(e){
+		mouse.x = e.clientX;
+		mouse.y = e.clientY;
+	}
+
+	function onTouchMove(e){
+    if(e.touches.length > 0 ){
+      mouse.x = e.touches[0].clientX;
+      mouse.y = e.touches[0].clientY;
+    }
+	}
+
+function onTouchEnd(e){
+  mouse.x = -9999;
+  mouse.y = -9999;
+}
+
+	function initScene(){
+		ww = canvas.width = window.innerWidth;
+		wh = canvas.height = window.innerHeight;
+
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+		ctx.font = "bold 200px sans-serif";
+		ctx.textAlign = "center";
+		ctx.fillText(copy.value, ww/2, wh/2);
+
+		var data  = ctx.getImageData(0, 0, ww, wh).data;
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		ctx.globalCompositeOperation = "screen";
+
+		particles = [];
+		for(var i=0;i<ww;i+=Math.round(ww/1000)){
+			for(var j=0;j<wh;j+=Math.round(ww/150)){
+				if(data[ ((i + j*ww)*4) + 3] > 150){
+					particles.push(new Particle(i,j));
+				}
+			}
+		}
+		amount = particles.length;
+
+	}
+
+	function onMouseClick(){
+		radius++;
+		if(radius ===5){
+			radius = 0;
+		}
+	}
+
+	function render(a) {
+		requestAnimationFrame(render);
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		for (var i = 0; i < amount; i++) {
+			particles[i].render();
+		}
+	};
+
+	copy.addEventListener("keyup", initScene);
+	window.addEventListener("resize", initScene);
+	window.addEventListener("mousemove", onMouseMove);
+	window.addEventListener("touchmove", onTouchMove);
+	// window.addEventListener("click", onMouseClick);
+	window.addEventListener("touchend", onTouchEnd);
+	initScene();
+	requestAnimationFrame(render);
+
+
+</script>
   </header>
+
+
+<section>
+	      
+</section>
 
   <section class="wrapper style5">
     <div class="inner">
@@ -389,6 +545,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 </article>
 
+
       <!-- Footer -->
 <footer id="footer">
   <ul class="icons">
@@ -435,6 +592,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
   </ul>
 </footer>
 
+
       <!-- Scripts -->
 <script src="/js/jquery.min.js"></script>
 <script src="/js/jquery.scrollex.min.js"></script>
@@ -444,7 +602,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
 <script src="/js/main.js"></script>
 
+
     </div>
-    
+
   </body>
+
 </html>

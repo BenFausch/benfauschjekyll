@@ -317,8 +317,14 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	input[type="text"]{
-		width:90%;
-		margin:5%;
+		width:50%;
+		margin: 0 auto 1% auto;
+			@include breakpoint(medium) {
+  					width:80%;
+  				}
+			@include breakpoint(small) {
+  					width:90%;
+  				}
 	}
 
 	.select-wrapper {
@@ -1841,19 +1847,30 @@ $baseurl: '{{ site.baseurl }}/images';
 #linkList{
 		list-style:none;
 		padding:1em 8em;
+		@include breakpoint(medium) {
+  				padding:1em 0;
+  				}
 		li{
 			background:rgba(0,0,0,0.5);
 			border-radius:10px;
 			border:2px solid white;
-			margin-bottom:2em;
+			margin-bottom:2.5em;
+			margin-left:auto;
+			margin-right:auto;
 			overflow:hidden;
 			padding:20px;
-			width:100%;
+			width: 60%;
+			  	@include breakpoint(large) {
+  					width:80%;
+  				}			
+  				@include breakpoint(small) {
+  					width:90%;
+  				}
 			a{
 				font-size: 1.6em;
-				line-height: 1.3em;
+				line-height: 1.5em;
   				display: inline-block;
-  				width: 80%;
+
 			}
 			img{
 				float: right;
@@ -1862,7 +1879,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 			p{	
 				font-size:.8em;
-				margin-top:10px;
+				margin-top:20px;
 				width:80%;
 			}
 		}
@@ -1904,3 +1921,79 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+/* Contact */
+	#contact{	
+		list-style:none;
+		width:100;
+		li{
+			display:block;
+			text-align:center;
+			a{
+				color:#E7418A;
+				font-family: 'Press Start 2P', cursive!important;
+				font-size:2em;
+				line-height:1.5em;
+				&:hover{
+					-webkit-animation:rainbow 1s infinite;
+					-ms-animation:rainbow 1s infinite;
+					-o-animation:rainbow 1s infinite;
+					animation:rainbow 1s infinite;
+				}
+			}
+		}
+	}
+	
+/*Rainbow animation*/
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}	

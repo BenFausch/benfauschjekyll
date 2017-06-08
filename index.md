@@ -1,9 +1,9 @@
 ---
 title: Hola Muchacho!
 layout: index
-button: my github
+button: my toolkit
 learnmore: About Me
-buttonlink: http://www.github.com/benfausch
+buttonlink: /bookmarks
 subtitle: webmaster
 oneHeader: About Me
 oneCopy: I am a web developer specializing in working with small businesses who need
@@ -43,7 +43,7 @@ twoCopyThree: "<table>\n\t<tr>\n\t<th>Basics:</th>\n\t\t<td>\n\tHTML\t\t\t\n\t\t
   Grunt, Gulp, Homebrew, Webpack\n\t\t</td>\n\t\t<td>Too many APIs to count </td>\n\t\t\n\t</tr>\n\t<tr>\n\t\t<th>Marketing/Search/SEO</th>\n\t\t<td>Salesforce,
   Marketo, GTM, Yoast</td>\n\t\t<td>Sailthru, Auth0</td>\n\t\t<td>Google Analytics,
   Elasticsearch, Logstash</td>\n\t</tr>\n\t<tr>\n\t<th>Server Admin:</th>\n\t\t<td>\n\t\t\tGit,
-  Alias, SSH, Bash Scripting\n\t\t</td>\n\t\t<td>\n\t\t\tAWS S3/RDS/EC2\n\t\t</td>\n\t\t<td>\n\t\t\tLAMP,
+  Alias, SSH, Bash Scripting\n\t\t</td>\n\t\t<td>\n\t\t\tAWS S3,RDS,EC2\n\t\t</td>\n\t\t<td>\n\t\t\tLAMP,
   MEAN, MAMP\n\t\t</td>\n\t</tr>\n\t<tr>\n\t<th>Other Tools:</th>\n\t\t<td>\n\t\t\tSublime,
   Komodo, Text Edit\n\t\t</td>\n\t\t\n\t\t<td>\n\t\t\tAdobe Suite (Photoshop, Illustrator,
   After Effects, Premier)\n\t\t</td>\n\t\t<td>\n\t\t\tMac, PC, Linux, Ubuntu, Kali\n\t\t</td>\n\t</tr>\n\n\n\n</table>"
