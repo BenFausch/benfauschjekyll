@@ -83,54 +83,46 @@ Jekyll build mod
 	background: none!important;
 }
 .style5{
-	margin-top:-10vw;
+	margin-top:-3vw;
+	margin-bottom:15vw;
 	position:relative;
 	z-index:999;
 }
-		canvas{
-			/*background: black;*/
-			width: 95vw;
-			height: 30vw;
-			/*margin-top:-200px;*/
-			margin-left:auto;
-			margin-right:auto;
-		}
-		input{
-			width: 250px;
-			height: 100px;
-			line-height: 40px;
-			position: absolute;
-			bottom: 35px;
-			left: calc(50% - 125px);
-			background: none;
-			color: white;
-			visibility:hidden;
-			font-size: 200px;
-			font-family: helvetica;
-			text-align: center;
-			border: 1px solid white;
-			background: rgba(255,255,255,0.2);
-		}
-
+canvas{
+	width: 95vw;
+	height: 30vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:4em;
+	border-left: 6px solid white;
+	border-right: 6px solid white;
+	border-radius: 50px;
+}
+input{
+	width: 0px;
+	height: 0px;
+	background: none;
+	color: white;
+	visibility:hidden;
+	font-family: helvetica;
+	text-align: center;
+	border: 1px solid white;
+	background: rgba(255,255,255,0.2);
+}
 </style>
 <canvas id="scene"></canvas>
-	<input id="copy" type="text" value="contact me" />
+<input id="copy" type="text" value="contact me" />
 <script>
-
 	var canvas = document.querySelector("#scene"),
 		ctx = canvas.getContext("2d"),
 		particles = [],
 		amount = 10,
 		mouse = {x:0,y:0},
 		radius = 1;
-
 	var colors = ["#fff", "#0849B7","#0849B7","#37BF00", "#E43434"];
-
 	var copy = document.querySelector("#copy");
-
 	var ww = canvas.width = window.innerWidth;
 	var wh = canvas.height = window.innerHeight;
-
 	function Particle(x,y){
 		this.x =  Math.random()*ww;
 		this.y =  Math.random()*wh;
@@ -144,31 +136,23 @@ Jekyll build mod
 		this.accX = 0;
 		this.accY = 0;
 		this.friction = Math.random()*0.01 + 0.96;
-
 		this.color = colors[Math.floor(Math.random()*6)];
 	}
-
 	Particle.prototype.render = function() {
-
-
 		this.accX = (this.dest.x - this.x)/1000;
 		this.accY = (this.dest.y - this.y)/1000;
 		this.vx += this.accX;
 		this.vy += this.accY;
 		this.vx *= this.friction;
 		this.vy *= this.friction;
-
 		this.x += this.vx;
 		this.y +=  this.vy;
-
 		ctx.fillStyle = this.color;
 		ctx.beginPath();
 		ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
 		ctx.fill();
-
 		var a = this.x - mouse.x;
 		var b = this.y - mouse.y;
-
 		var distance = Math.sqrt( a*a + b*b );
 		if(distance<(radius*150)){
 			this.accX = (this.x - mouse.x)/150;
@@ -176,40 +160,31 @@ Jekyll build mod
 			this.vx += this.accX;
 			this.vy += this.accY;
 		}
-
 	}
-
 	function onMouseMove(e){
 		mouse.x = e.clientX;
 		mouse.y = e.clientY;
 	}
-
 	function onTouchMove(e){
-    if(e.touches.length > 0 ){
-      mouse.x = e.touches[0].clientX;
-      mouse.y = e.touches[0].clientY;
-    }
-	}
-
-function onTouchEnd(e){
-  mouse.x = -9999;
-  mouse.y = -9999;
+if(e.touches.length > 0 ){
+mouse.x = e.touches[0].clientX;
+mouse.y = e.touches[0].clientY;
 }
-
+	}
+function onTouchEnd(e){
+mouse.x = -9999;
+mouse.y = -9999;
+}
 	function initScene(){
 		ww = canvas.width = window.innerWidth;
 		wh = canvas.height = window.innerHeight;
-
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
-
 		ctx.font = "bold "+(ww/7)+"px sans-serif";
 		ctx.textAlign = "center";
 		ctx.fillText(copy.value, ww/2, wh/2);
-
 		var data  = ctx.getImageData(0, 0, ww, wh).data;
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 		ctx.globalCompositeOperation = "screen";
-
 		particles = [];
 		for(var i=0;i<ww;i+=Math.round(ww/500)){
 			for(var j=0;j<wh;j+=Math.round(ww/150)){
@@ -219,16 +194,13 @@ function onTouchEnd(e){
 			}
 		}
 		amount = particles.length;
-
 	}
-
 	function onMouseClick(){
 		radius++;
 		if(radius ===5){
 			radius = 0;
 		}
 	}
-
 	function render(a) {
 		requestAnimationFrame(render);
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -236,7 +208,6 @@ function onTouchEnd(e){
 			particles[i].render();
 		}
 	};
-
 	copy.addEventListener("keyup", initScene);
 	window.addEventListener("resize", initScene);
 	window.addEventListener("mousemove", onMouseMove);
@@ -245,8 +216,6 @@ function onTouchEnd(e){
 	window.addEventListener("touchend", onTouchEnd);
 	initScene();
 	requestAnimationFrame(render);
-
-
 </script>
   </header>
 
