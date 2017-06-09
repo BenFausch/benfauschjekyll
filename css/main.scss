@@ -1283,6 +1283,9 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.style1 {
 			@include wrapper(accent1);
+			&.toolkit{
+				padding: 1em 1em 0.1em 1em;
+			}
 		}
 
 		&.style2 {
@@ -1346,7 +1349,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		top: 0;
 		width: 20em;
 		z-index: _misc(z-index-base) + 2;
-
+		img{
+			width:100%;
+			margin-bottom:2em;
+		}
 		ul {
 			list-style: none;
 			padding: 0;
@@ -1366,14 +1372,17 @@ $baseurl: '{{ site.baseurl }}/images';
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 0.8em;
+					font-size: 1.8em;
+					line-height:1.8em;
 					letter-spacing: _size(letter-spacing-alt);
 					outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
 
 					@include breakpoint(small) {
+						font-size:.8em;
 						line-height: 3em;
+
 					}
 				}
 			}
@@ -1854,11 +1863,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			background:rgba(0,0,0,0.5);
 			border-radius:10px;
 			border:2px solid white;
-			margin-bottom:2.5em;
+			margin-bottom:1em;
 			margin-left:auto;
 			margin-right:auto;
 			overflow:hidden;
-			padding:20px;
+			padding:10px;
 			width: 60%;
 			  	@include breakpoint(large) {
   					width:80%;
@@ -1867,10 +1876,9 @@ $baseurl: '{{ site.baseurl }}/images';
   					width:90%;
   				}
 			a{
-				font-size: 1.6em;
-				line-height: 1.5em;
+				font-size: 1em;
+				line-height: .8em;
   				display: inline-block;
-
 			}
 			img{
 				float: right;
@@ -1878,8 +1886,10 @@ $baseurl: '{{ site.baseurl }}/images';
   				padding: 10px;
 			}
 			p{	
-				font-size:.8em;
-				margin-top:20px;
+				font-size:.75em;
+				line-height:1.5em;
+				margin-bottom:5px;
+				margin-top:10px;
 				width:80%;
 			}
 		}

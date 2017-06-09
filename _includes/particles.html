@@ -1,16 +1,23 @@
-<!-- Edit the text with whatever you want :) --> 
-<!-- Works with emojis too ! -->
 <style>
 #main > header{
 	padding:0em!important;
-	padding-top:2em!important;
+	/*padding-top:2em!important;*/
+	background:none!important;
 }
 .wrapper{
 	padding: 1em!important;
 }
+#page-wrapper, .style5{
+	background: none!important;
+}
+.style5{
+	margin-top:-10vw;
+	position:relative;
+	z-index:999;
+}
 		canvas{
 			/*background: black;*/
-			width: 69.9vw;
+			width: 95vw;
 			height: 30vw;
 			/*margin-top:-200px;*/
 			margin-left:auto;
@@ -123,7 +130,7 @@ function onTouchEnd(e){
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-		ctx.font = "bold 200px sans-serif";
+		ctx.font = "bold "+(ww/7)+"px sans-serif";
 		ctx.textAlign = "center";
 		ctx.fillText(copy.value, ww/2, wh/2);
 

@@ -22,6 +22,18 @@ Jekyll build mod
   <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Ben Fausch" href="http://localhost:4000/feed.xml">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/clippy.css" media="all">
+  <!--[if IE]>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script src="/js/clippy.min.js"></script>
+  <script type="text/javascript">
+      clippy.load('Clippy', function(agent) {
+          agent.moveTo(50,100);
+          agent.show();
+          agent.speak("It looks like you're browsing with IE. Do you need assistance?");
+      });
+  </script>
+  <![endif]-->
 </head>
 
 
@@ -41,7 +53,7 @@ Jekyll build mod
         <div id="menu">
         <img src="/images/profile.gif" width="150">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/index">Home</a></li>
             <li><a href="/bookmarks">Toolkit</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>
@@ -58,19 +70,26 @@ Jekyll build mod
 
   <header>
     
-    <!-- Edit the text with whatever you want :) --> 
-<!-- Works with emojis too ! -->
-<style>
+    <style>
 #main > header{
 	padding:0em!important;
-	padding-top:2em!important;
+	/*padding-top:2em!important;*/
+	background:none!important;
 }
 .wrapper{
 	padding: 1em!important;
 }
+#page-wrapper, .style5{
+	background: none!important;
+}
+.style5{
+	margin-top:-10vw;
+	position:relative;
+	z-index:999;
+}
 		canvas{
 			/*background: black;*/
-			width: 69.9vw;
+			width: 95vw;
 			height: 30vw;
 			/*margin-top:-200px;*/
 			margin-left:auto;
@@ -183,7 +202,7 @@ function onTouchEnd(e){
 
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-		ctx.font = "bold 200px sans-serif";
+		ctx.font = "bold "+(ww/7)+"px sans-serif";
 		ctx.textAlign = "center";
 		ctx.fillText(copy.value, ww/2, wh/2);
 
@@ -192,7 +211,7 @@ function onTouchEnd(e){
 		ctx.globalCompositeOperation = "screen";
 
 		particles = [];
-		for(var i=0;i<ww;i+=Math.round(ww/1000)){
+		for(var i=0;i<ww;i+=Math.round(ww/500)){
 			for(var j=0;j<wh;j+=Math.round(ww/150)){
 				if(data[ ((i + j*ww)*4) + 3] > 150){
 					particles.push(new Particle(i,j));
