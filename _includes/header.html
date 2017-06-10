@@ -1,15 +1,17 @@
 <!-- Header -->
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
-  <h1><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
+  <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
   <nav id="nav">
     <ul>
       <li class="special">
         
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
-        <img src="/images/profile.gif" width="150">
+        <a href="/" id="profile">
+          <img src="/images/profile.gif" width="150">
+        </a>  
           <ul>
-            <li><a href="/index">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/bookmarks">Toolkit</a></li>
             <li><a href="/contact">Contact Me</a></li>
           </ul>

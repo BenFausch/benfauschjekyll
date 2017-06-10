@@ -1246,7 +1246,8 @@ header h5 + p,
 header h6 + p {
   font-size: 0.9em; }
 header.major {
-  margin: 0 0 3.5em 0; }
+  margin: 0 auto 3.5em auto;
+  width: 60%; }
   header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
     border-bottom: solid 2px #fff;
     display: inline-block;
@@ -1261,7 +1262,7 @@ header.major {
     top: 0; }
   @media screen and (max-width: 736px) {
     header.major {
-      margin: 0 0 2em 0; } }
+      margin: 0 auto 2em auto; } }
 @media screen and (max-width: 980px) {
   header br {
     display: none; } }
@@ -1908,9 +1909,7 @@ button,
     background-color: rgba(0, 0, 0, 0.75); }
   @media screen and (max-width: 1280px) {
     .spotlight .image {
-      width: 45%; }
-    .spotlight .content {
-      width: 55%; } }
+      width: 45%; } }
   @media screen and (max-width: 980px) {
     .spotlight {
       display: block; }
@@ -2040,7 +2039,7 @@ button,
       .wrapper.style1 .features li {
         border-top-color: rgba(0, 0, 0, 0.125); } }
     .wrapper.style1.toolkit {
-      padding: 1em 1em 0.1em 1em; }
+      padding: 2em 1em 0.1em 1em; }
   .wrapper.style2 {
     background-color: #101E2C; }
   .wrapper.style3 {
@@ -2267,9 +2266,18 @@ button,
   top: 0;
   width: 20em;
   z-index: 10002; }
+  #menu #profile {
+    border-bottom: none; }
   #menu img {
     width: 100%;
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    border: 1px solid transparent; }
+    #menu img:hover {
+      border: 2px solid red;
+      -webkit-animation: rainbowBorder 1s infinite;
+      -ms-animation: rainbowBorder 1s infinite;
+      -o-animation: rainbowBorder 1s infinite;
+      animation: rainbowBorder 1s infinite; }
   #menu ul {
     list-style: none;
     padding: 0; }
@@ -2715,7 +2723,7 @@ body.is-mobile #main > header {
         width: 90%; } }
     #linkList li a {
       font-size: 1em;
-      line-height: .8em;
+      line-height: 1.5em;
       display: inline-block; }
     #linkList li img {
       float: right;
@@ -2867,3 +2875,96 @@ body.is-mobile.landing #footer {
     color: #8000ff; }
   100% {
     color: #ff0080; } }
+/*Border Rainbow animation*/
+@-webkit-keyframes rainbowBorder {
+  0% {
+    border-color: #ff0000; }
+  10% {
+    border-color: #ff8000; }
+  20% {
+    border-color: #ffff00; }
+  30% {
+    border-color: #80ff00; }
+  40% {
+    border-color: #00ff00; }
+  50% {
+    border-color: #00ff80; }
+  60% {
+    border-color: #00ffff; }
+  70% {
+    border-color: #0080ff; }
+  80% {
+    border-color: #0000ff; }
+  90% {
+    border-color: #8000ff; }
+  100% {
+    border-color: #ff0080; } }
+@-ms-keyframes rainbowBorder {
+  0% {
+    border-color: #ff0000; }
+  10% {
+    border-color: #ff8000; }
+  20% {
+    border-color: #ffff00; }
+  30% {
+    border-color: #80ff00; }
+  40% {
+    border-color: #00ff00; }
+  50% {
+    border-color: #00ff80; }
+  60% {
+    border-color: #00ffff; }
+  70% {
+    border-color: #0080ff; }
+  80% {
+    border-color: #0000ff; }
+  90% {
+    border-color: #8000ff; }
+  100% {
+    border-color: #ff0080; } }
+@-o-keyframes rainbowBorder {
+  0% {
+    border-color: #ff0000; }
+  10% {
+    border-color: #ff8000; }
+  20% {
+    border-color: #ffff00; }
+  30% {
+    border-color: #80ff00; }
+  40% {
+    border-color: #00ff00; }
+  50% {
+    border-color: #00ff80; }
+  60% {
+    border-color: #00ffff; }
+  70% {
+    border-color: #0080ff; }
+  80% {
+    border-color: #0000ff; }
+  90% {
+    border-color: #8000ff; }
+  100% {
+    border-color: #ff0080; } }
+@keyframes rainbowBorder {
+  0% {
+    border-color: #ff0000; }
+  10% {
+    border-color: #ff8000; }
+  20% {
+    border-color: #ffff00; }
+  30% {
+    border-color: #80ff00; }
+  40% {
+    border-color: #00ff00; }
+  50% {
+    border-color: #00ff80; }
+  60% {
+    border-color: #00ffff; }
+  70% {
+    border-color: #0080ff; }
+  80% {
+    border-color: #0000ff; }
+  90% {
+    border-color: #8000ff; }
+  100% {
+    border-color: #ff0080; } }
