@@ -12,17 +12,21 @@ function getMeta(container) {
         jdUrl = json_data[jd]['url'];
         jdTitle = json_data[jd]['title'];
         jdTime = json_data[jd]['dateAdded'];
+        jdParent = json_data[jd]['parentId'];
         jdImg = '';
         jdDescription = '';
-        if (jdUrl) {
-            jdUrl = jdUrl.replace(/"/g, '\\"');
-            jdTitle = jdTitle.replace(/"/g, '\\"');
-            jdTime = jdTime.replace(/"/g, '\\"');
-            var url = encodeURIComponent(jdUrl);
-            fetchMeta(url, jdTitle, jdUrl, i);
-        } else {
-            i++
-        }
+        
+           
+            if (jdUrl && (jdParent==='234')) {
+                jdUrl = jdUrl.replace(/"/g, '\\"');
+                jdTitle = jdTitle.replace(/"/g, '\\"');
+                jdTime = jdTime.replace(/"/g, '\\"');
+                var url = encodeURIComponent(jdUrl);
+                fetchMeta(url, jdTitle, jdUrl, i);
+            } else {
+                i++
+            }
+        
     }
 };
 
@@ -39,20 +43,14 @@ function fetchMeta(url, jdTitle, jdUrl) {
         i++;
         if (i === (json_length)) {
             waitMeta(container)
-        }
-
-       !data.openGraph ? jdImg='':jdImg = data.openGraph.image;
-
-       !data.hybridGraph? jdDescription = '': jdDescription = data.hybridGraph.description;
-
+        }!data.openGraph ? jdImg = '' : jdImg = data.openGraph.image;
+        !data.hybridGraph ? jdDescription = '' : jdDescription = data.hybridGraph.description;
         //clean description       
         jdDescription = jdDescription.replace(/"/g, '\\"');
         jdDescription = jdDescription.replace(/\s+/g, " ");
         jdDescription = jdDescription.replace(/[`~!@#%^&*()_|+\-=?;:<>\{\}\[\]\\\/]/gi, '');
-
-        if (typeof(jdImg)!=='undefined') {
-         jdImg = jdImg.replace(/"/g, '\\"');
-
+        if (typeof(jdImg) !== 'undefined') {
+            jdImg = jdImg.replace(/"/g, '\\"');
             container = container + '<li><a href="' + jdUrl + '" target="_blank">' + jdTitle + '</a><img src="' + jdImg + '" width="100" onerror="this.style.display=\'none\';" ><p>' + jdDescription + '</p></li>';
         } else {
             container = container + '<li><a href="' + jdUrl + '" target="_blank">' + jdTitle + '</a><p>' + jdDescription + '</p></li>';
