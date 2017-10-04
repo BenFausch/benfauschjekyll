@@ -15,18 +15,15 @@ function getMeta(container) {
         jdParent = json_data[jd]['parentId'];
         jdImg = '';
         jdDescription = '';
-        
-           
-            if (jdUrl && (jdParent==='234')) {
-                jdUrl = jdUrl.replace(/"/g, '\\"');
-                jdTitle = jdTitle.replace(/"/g, '\\"');
-                jdTime = jdTime.replace(/"/g, '\\"');
-                var url = encodeURIComponent(jdUrl);
-                fetchMeta(url, jdTitle, jdUrl, i);
-            } else {
-                i++
-            }
-        
+        if (jdUrl && (jdParent === '234')) {
+            jdUrl = jdUrl.replace(/"/g, '\\"');
+            jdTitle = jdTitle.replace(/"/g, '\\"');
+            jdTime = jdTime.replace(/"/g, '\\"');
+            var url = encodeURIComponent(jdUrl);
+            fetchMeta(url, jdTitle, jdUrl, i);
+        } else {
+            i++
+        }
     }
 };
 
