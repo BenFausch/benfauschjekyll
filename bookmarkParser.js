@@ -11,7 +11,7 @@ function getMeta(container) {
         console.log(json_data[jd]['url'])
         jdUrl = json_data[jd]['url'];
         jdTitle = json_data[jd]['title'];
-        jdTime = json_data[jd]['dateAdded'];
+        jdTime = json_data[jd]['dateAddedUTC'];
         jdParent = json_data[jd]['parentId'];
         jdImg = '';
         jdDescription = '';
